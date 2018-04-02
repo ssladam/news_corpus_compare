@@ -6,10 +6,11 @@ from datetime import datetime
 
 # Set the limit for number of articles to download
 LIMIT = 100 #upper limit for max # articles to read it at any one time
+MIN_TEXT = 550 #minimum number of valid characters to be considered for inclusion
 
 data = {}
 
-script_path = "C:/NU/453/Scraper/"
+script_path = "C:/Users/adams/OneDrive/Documents/Northwestern/453 - Text/Scraper/"
 if script_path[-1:] != "/": script_path = script_path + "/"
 
 sources = {
@@ -100,8 +101,25 @@ for source, value in sources.items():
     data[source]['articles'] += site['articles']
     data[source]['link_set'] |= site['link_set']
 
+#Some of our articles may be malformed. Let's get rid of empty articles, and/or articles that are too short
+#  Note: we remove the short articles links from our previously scanned set. Maybe on re-scan a failed
+#  article will be captured?
+#  Side effect: junk, too short articles will be scanned every time
+clean_data = {}
+for source, value in data.items():
+    clean_data[source] = {"rss":value['rss'], "link":value['link'],"articles":[],"link_set":set()}
+    for article in data[source]['articles']:
+        if(len(article['text']) > MIN_TEXT):
+            #print(len(article['text']))
+            #print(article['link'])
+            clean_data[source]['articles'].append(article)
+            clean_data[source]['link_set'].add(article['link'])
+            
+
+
 try:
     with open(script_path+'scraped_articles.yaml', 'w') as outfile:
-        yaml.dump(data, outfile, default_flow_style=False)
+        yaml.dump(clean_data, outfile, default_flow_style=False)
 except Exception as e: print(e)
+
 
