@@ -23,12 +23,14 @@ plt.ioff() #if you keep getting a blank pop-up figure window, run this manually 
 continue_exec = True #Do not change
 
 #========GLOBAL VARIABLES YOU CAN CUSTOMIZE TO TWEAK BEHAVIOR============
+#todo: move cluster size definitions to SOURCES (from scraper.py) so cluster sizes
+#  can be customized for each source
 num_term_clusters = 7 #how many clusters do you want for terms?
 num_concept_clusters = 12 #how many clusters for concepts?
 num_terms_in_cluster = 40 #how many of the top-terms within each cluster do you want to report?
-corpus_path = "C:/Users/adams/OneDrive/Documents/Northwestern/453 - Text/Scraper/" #location where all corpus .docx files are stored
-output_path = "C:/Users/adams/OneDrive/Documents/Northwestern/453 - Text/output/" #location you will output all files
-script_path = "C:/Users/adams/OneDrive/Documents/Northwestern/453 - Text/" #location where you have saved the collection of python files
+corpus_path = "C:/temp/NU/453/news_compare/article_input/" #location where corpus YAML is saved
+output_path = "C:/temp/NU/453/news_compare/output/" #location you will output all files
+script_path = "C:/temp/NU/453/news_compare/" #location where you have saved the collection of python files
 #========GLOBAL VARIABLES YOU CAN CUSTOMIZE TO TWEAK BEHAVIOR============
 
 #Did you forget to put the backslash at the end of your input folders?
@@ -403,10 +405,6 @@ def make_magic_happen(corpus_path, output_path, phrase_dict, ec_dict, filter_wor
         
         terms_in_corpus = sum(masterdf_terms['t_count'])
         
-        #Bit of clean-up. Delete all terms that only have a single occurance
-        #IMPORTANT: you may want to comment this out to see if you're eliminating important terms
-        #   I axe them for simplicty. It's prevents all single terms form glomming into an "UNKNOWN" category, throwing off clustering
-        masterdf_terms.drop(masterdf_terms[masterdf_terms.t_count < 2].index, inplace=True)
         
         #assign each term to its concept class, if known
         indexSr = pd.Series(masterdf_terms.index).str.lower()
@@ -458,7 +456,13 @@ def make_magic_happen(corpus_path, output_path, phrase_dict, ec_dict, filter_wor
                 else: print('failed to assign weighting, key not found in '+source+' index:\"'+term+'\"')
             except: print('failed to assign weighting:\"'+term+'\"')
         del term, val, col
-        
+
+        #Bit of clean-up. Delete all terms that only have a single occurance
+        #IMPORTANT: you may want to comment this out to see if you're eliminating important terms
+        #   I axe them for simplicty. It's prevents all single terms form glomming into an "UNKNOWN" category, throwing off clustering
+        masterdf_terms.drop(masterdf_terms[masterdf_terms.t_count < 2].index, inplace=True)
+
+
         #Now build concept matrix. First we pivot by concept, and sum all columns
         masterdf_concepts = masterdf_terms.groupby(['concept']).sum()
         #weighting was for terms... it's automatically rolled into component concepts
@@ -511,4 +515,4 @@ if __name__ == '__main__':
 
 
 def dolookup(num):
-    pd.DataFrame([corpus_input['reddit']['articles'][num]['text']]).to_clipboard(index=False, header=False)
+    pd.DataFrame([corpus_input['foxnews']['articles'][num]['text']]).to_clipboard(index=False, header=False)

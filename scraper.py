@@ -10,7 +10,7 @@ MIN_TEXT = 550 #minimum number of valid characters to be considered for inclusio
 
 data = {}
 
-script_path = "C:/Users/adams/OneDrive/Documents/Northwestern/453 - Text/Scraper/"
+script_path = "C:/temp/NU/453/news_compare/article_input/"
 if script_path[-1:] != "/": script_path = script_path + "/"
 
 sources = {

@@ -35,8 +35,8 @@ def get_phrases():
 
 "Trans-Pacific Partnership":"TPP",\
 "Fire and Fury":"fireAndFury",\
-"North American Free Trade Agreement":"NAFTA",\
-"World Trade Organization":"WTO",\
+"North American Free Trade Agreement":"nafta",\
+"World Trade Organization":"wto",\
 "lost jobs":"jobLosses",\
 "job losses":"jobLosses",\
 "chief of staff":"chiefOfStaff",\
@@ -78,18 +78,18 @@ def get_phrases():
 "Miller & Chevalier ":"millerAndChevalier",\
 "improvised explosive device":"improvisedExplosiveDevice",\
 "Sullivan & Cromwell":"sullivanAndCromwell",\
-"second amendment":"secondAmendment",\
-"2nd amendment":"secondAmendment",\
+"second amendment":"secondamendment",\
+"2nd amendment":"secondamendment",\
 "Supplemental Nutrition Assistance Program":"supplmentalNutritionAssistanceProgram",\
 "federal bureau of investigation":"fbi",\
 "domestic abuse":"domesticAbuse",\
 "political action committee":"pac",\
 "customs and border protection":"customsAndBorderProtection",\
 "crooked hillary":"crookedHillary",\
-"federal election commission":"federalElectionCommission",\
+"federal election commission":"federalelectioncommission",\
 "Department of Health and Human Services":"departmentOfHealthAndHumanServices",\
 "united kingdom":"unitedKingdom",\
-"American Civil Liberties Union":"americanCivilLibertiesUnion",\
+"American Civil Liberties Union":"americancivillibertiesunion",\
 "travel ban":"travelBan",\
 "islamic exteremist":"islamicExtremist",\
 "black lives matter":"blackLivesMatter",\
@@ -98,11 +98,31 @@ def get_phrases():
 "national rifle association":"nationalRifleAssociation",\
 "congressional reform act":"congressionalReformAct",\
 "Immigration and Customs Enforcement ":"immigrationAndCustomsEnforcement",\
-"undocumented immigrant":"undocumentedImmigrants",\
-"undocumented immigrants":"undocumentedImmigrants",\
+"undocumented immigrants":"undocumentedImmigrant",\
+"undocumented immigrant":"undocumentedImmigrant",\
 "organization for the prohibition of chemical weapons":"opcw",\
 "food stamps":"foodstamps",\
 "border wall":"borderwall",\
+"The Trump White House: Changing the Rules of the Game":"changingTheRulesOfTheGame",\
+"Fire & Fury":"fireAndFury",\
+"gay rights":"gayRights",\
+"opiod addiction":"oppiodaddiction",\
+"Deferred Action for Childhood Arrivals":"daca",\
+"southern borderwall":"borderwall",\
+"exports":"eExport",\
+"the paris agreement":"theparisagreement",\
+"climate change agreement":"theparisagreement",\
+"clean power":"cleanpower",\
+"clean coal":"cleancoal",\
+"alternative fuel":"alternativefuel",\
+"green fuel":"greenfuel",\
+"greenn power":"greenpower",\
+"green energy":"greenenergy",\
+"Russian Direct Investment Fund":"russiandirectinvestmentfund",\
+"chemical weapon":"chemicalweapon",\
+"weapons of mass destruction":"wmd",\
+"weapon of mass destruction":"wmd",\
+"white supremacist":"whitesupremacist",\
 
 
 

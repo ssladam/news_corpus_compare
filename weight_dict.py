@@ -27,8 +27,9 @@ def get_weights():
 "stephonClark":5,\
 "peteSessions":3,\
 "brendanKelly":3,\
-
-
+"anthonyKennedy":3,\
+"jerryBrown":3,\
+"robPorter":3,\
 
 
         }
