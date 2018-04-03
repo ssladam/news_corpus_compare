@@ -1384,6 +1384,10 @@ def get_concepts():
 "youth law enforcement academy":"lawEnforcement",\
 "yuliaTymoshenko":"foreignLeader",\
 "yvetteClarke":"democrat",\
+"policeshooting":"racialTension",\
+"policeshootings":"racialTension",\
+"chemicalweapon":"war",\
+"chemicalweapons":"war",\
 
 
 

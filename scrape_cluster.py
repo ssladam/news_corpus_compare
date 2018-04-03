@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-#a lot of credit goes to these fine gents:
+#a lot of credit goes to these fine gents, which helped get me started:
 #    http://bdewilde.github.io/blog/2014/09/23/intro-to-automatic-keyphrase-extraction/
 #    http://brandonrose.org/clustering
 
@@ -17,6 +17,13 @@ from scipy.spatial.distance import pdist
 from random import randint
 plt.ioff() #if you keep getting a blank pop-up figure window, run this manually in the console
 
+#todo: DELETE THIS SECTION
+# def pinpointconcept(df, c_name):
+#     df[c_name] = 0.0
+#     df[c_name][c_name] = 1.0
+#     return df
+
+
 #If you've never setup nltk previously, execute the following line
 #nltk.download()
 
@@ -26,11 +33,11 @@ continue_exec = True #Do not change
 #todo: move cluster size definitions to SOURCES (from scraper.py) so cluster sizes
 #  can be customized for each source
 num_term_clusters = 7 #how many clusters do you want for terms?
-num_concept_clusters = 12 #how many clusters for concepts?
+num_concept_clusters = 13 #how many clusters for concepts?
 num_terms_in_cluster = 40 #how many of the top-terms within each cluster do you want to report?
-corpus_path = "C:/temp/NU/453/news_compare/article_input/" #location where corpus YAML is saved
-output_path = "C:/temp/NU/453/news_compare/output/" #location you will output all files
-script_path = "C:/temp/NU/453/news_compare/" #location where you have saved the collection of python files
+corpus_path = "C:/Users/adams/OneDrive/Documents/Northwestern/453 - Text/Scraper/" #location where corpus YAML is saved
+output_path = "C:/Users/adams/OneDrive/Documents/Northwestern/453 - Text/output/" #location you will output all files
+script_path = "C:/Users/adams/OneDrive/Documents/Northwestern/453 - Text/" #location where you have saved the collection of python files
 #========GLOBAL VARIABLES YOU CAN CUSTOMIZE TO TWEAK BEHAVIOR============
 
 #Did you forget to put the backslash at the end of your input folders?
@@ -199,7 +206,7 @@ def magic_cluster(input_matrix, output_path, out_name, num_clusters=5, num_terms
     #were we given the terms matrix to cluster, or the concept matrix?
     if 'concept' in tfidf_matrix.columns:
         tfidf_matrix.drop(['t_count','concept','d_count','tf','idf','tf_idf','weight'], axis=1, inplace=True)
-    else: tfidf_matrix.drop(['t_count','d_count','tf','idf','tf_idf'], axis=1, inplace=True)
+    else: tfidf_matrix.drop(['t_count','d_count','tf','idf','tf_idf','weight'], axis=1, inplace=True)
     tfidf_matrix.fillna(0, inplace=True)
     tfidf_matrix = tfidf_matrix.transpose()
     
@@ -402,6 +409,7 @@ def make_magic_happen(corpus_path, output_path, phrase_dict, ec_dict, filter_wor
         masterdf_terms.loc[:,'weight'] = 1.0
         
         non_matrix_cols = ['t_count', 'concept', 'd_count', 'tf', 'idf', 'tf_idf', 'weight']
+        concept_non_matrix_cols = ['t_count', 'd_count', 'tf', 'idf', 'tf_idf', 'weight']
         
         terms_in_corpus = sum(masterdf_terms['t_count'])
         
@@ -445,21 +453,24 @@ def make_magic_happen(corpus_path, output_path, phrase_dict, ec_dict, filter_wor
         del i,term
         
         #Any custom weighting to be applied?
-        matrix_cols = list(set(masterdf_terms.columns) - set(non_matrix_cols))
-        for term, val in weight_dict.items():
-            try:
-                #todo: Fails case-sensitive matching. Fix this.
-                if term in masterdf_terms.index:
-                    masterdf_terms.loc[term,'weight'] = val
-                    for col in matrix_cols:
-                        masterdf_terms.loc[term,col] = masterdf_terms.loc[term,col] * val
-                else: print('failed to assign weighting, key not found in '+source+' index:\"'+term+'\"')
-            except: print('failed to assign weighting:\"'+term+'\"')
-        del term, val, col
+        #   COMMENT: this is for terms. I've since moved weighting to concepts. However, no reason it can't be both.
+        #   If you open this up, ensure that all terms / concepts have different names, or create another dict just for term weights
+        # matrix_cols = list(set(masterdf_terms.columns) - set(non_matrix_cols))
+        # for term, val in weight_dict.items():
+        #     try:
+        #         #todo: Fails case-sensitive matching. Fix this.
+        #         if term in masterdf_terms.index:
+        #             masterdf_terms.loc[term,'weight'] = val
+        #             for col in matrix_cols:
+        #                 masterdf_terms.loc[term,col] = masterdf_terms.loc[term,col] * val
+        #         else: print('failed to assign weighting, key not found in '+source+' index:\"'+term+'\"')
+        #     except: print('failed to assign weighting:\"'+term+'\"')
+        # del term, val, col
 
         #Bit of clean-up. Delete all terms that only have a single occurance
         #IMPORTANT: you may want to comment this out to see if you're eliminating important terms
-        #   I axe them for simplicty. It's prevents all single terms form glomming into an "UNKNOWN" category, throwing off clustering
+        #   I axe them for simplicty. It prevents all single terms form glomming into an "UNKNOWN" category, throwing off clustering
+        #   Also saved me a TON of time from having to map the individual terms into ECs & clusters. I admit that creates some knowledge loss
         masterdf_terms.drop(masterdf_terms[masterdf_terms.t_count < 2].index, inplace=True)
 
 
@@ -467,13 +478,48 @@ def make_magic_happen(corpus_path, output_path, phrase_dict, ec_dict, filter_wor
         masterdf_concepts = masterdf_terms.groupby(['concept']).sum()
         #weighting was for terms... it's automatically rolled into component concepts
         #  Let's delete the column, since "sum of weightings" doesn't have useful meaning.
-        masterdf_concepts.drop('weight', axis=1, inplace=True)
+        #masterdf_concepts.drop('weight', axis=1, inplace=True)
+        #Update: now I do perform weighting on concepts. But we need to reset all values to 1
+        masterdf_concepts.loc[:,'weight'] = 1.0
+        
         #document count shouldn't be sum'd, we should max to find real doc count, fix those values.
-        #   There is probably a better way to do this, but I'm bad with pivot logic!
+        #   Note: should replace this section with more pythonic code
         for concept in masterdf_concepts.index:
-            #Ignore first 6 columns to only count # of items in the DSI's
-            masterdf_concepts.set_value(concept, 'd_count', masterdf_concepts.loc[concept][5:].count())
+            #Ignore first 7 columns to only count # of items in the DSI's
+            masterdf_concepts.set_value(concept, 'd_count', masterdf_concepts.loc[concept][6:].count())
         del concept
+        
+        #Apply weighting to concepts
+        matrix_cols = list(set(masterdf_concepts.columns) - set(concept_non_matrix_cols))
+        for term, val in weight_dict.items():
+            try:
+                #todo: Fails case-sensitive matching. Fix this.
+                if term in masterdf_concepts.index:
+                    masterdf_concepts.loc[term,'weight'] = val
+                    for col in matrix_cols:
+                        masterdf_concepts.loc[term,col] = masterdf_concepts.loc[term,col] * val
+                else: print('failed to assign weighting, key not found in '+source+' index:\"'+term+'\"')
+            except: print('failed to assign weighting:\"'+term+'\"')
+        del term, val, col
+        
+        #todo: DELETE THIS SECTION
+        # matrix_cols = pinpointconcept(masterdf_concepts, 'violenceCrime')
+        # matrix_cols = pinpointconcept(masterdf_concepts, 'environment')
+        # matrix_cols = pinpointconcept(masterdf_concepts, 'russiaElectionInterference')
+        # matrix_cols = pinpointconcept(masterdf_concepts, 'economy')
+        # matrix_cols = pinpointconcept(masterdf_concepts, 'ethics')
+        # matrix_cols = pinpointconcept(masterdf_concepts, 'foreignTrade')
+        # matrix_cols = pinpointconcept(masterdf_concepts, 'economy')
+        # matrix_cols = pinpointconcept(masterdf_concepts, 'immigration')
+        # matrix_cols = pinpointconcept(masterdf_concepts, 'racialTension')
+        # matrix_cols = pinpointconcept(masterdf_concepts, 'trumpImpeachment')
+        # matrix_cols = pinpointconcept(masterdf_concepts, 'fbiMisconduct')
+        # matrix_cols = pinpointconcept(masterdf_concepts, 'guns')
+        # matrix_cols = pinpointconcept(masterdf_concepts, 'cyberSecurity')
+        # matrix_cols = pinpointconcept(masterdf_concepts, 'civilRights')
+        # matrix_cols = pinpointconcept(masterdf_concepts, 'healthcare')
+        # matrix_cols = pinpointconcept(masterdf_concepts, 'education')
+        # matrix_cols = pinpointconcept(masterdf_concepts, 'opinionPolls')
         
         
         #write the master matrix out to a CSV file
@@ -487,9 +533,10 @@ def make_magic_happen(corpus_path, output_path, phrase_dict, ec_dict, filter_wor
         # del i
         
         #perform clustering....
-        term_tfmatrix = magic_cluster(masterdf_terms, output_path, 'terms', num_term_clusters, num_terms_in_cluster, 3425, source)
-        magic_cluster(masterdf_terms, output_path, 'terms', num_term_clusters, num_terms_in_cluster, randint(3426,100000), source)
-        cluster_cutoff_selection(term_tfmatrix, 'Terms', 20, source)
+        term_tfmatrix = pd.DataFrame()
+        #term_tfmatrix = magic_cluster(masterdf_terms, output_path, 'terms', num_term_clusters, num_terms_in_cluster, 3425, source)
+        #magic_cluster(masterdf_terms, output_path, 'terms', num_term_clusters, num_terms_in_cluster, randint(3426,100000), source)
+        #cluster_cutoff_selection(term_tfmatrix, 'Terms', 20, source)
         #now cluster on concepts, instead of ECs
         concept_tfmatrix = magic_cluster(masterdf_concepts, output_path, 'concepts', num_concept_clusters, num_terms_in_cluster, 3425, source)
         magic_cluster(masterdf_concepts, output_path, 'concepts', num_concept_clusters, num_terms_in_cluster, randint(3426,100000), source)
@@ -512,7 +559,15 @@ if __name__ == '__main__':
         print(e)
         print('Unable to continue execution')
 
+d = {'one' : pd.Series([1., 2., 3.], index=['a', 'b', 'c']), 'two' : pd.Series([1., 2., 3., 4.], index=['a', 'b', 'c', 'd'])}
+df = pd.DataFrame(d)
 
+
+def pinpointconcept(df, c_name):
+    to_return = pd.DataFrame(df)
+    to_return[c_name] = 0.0
+    to_return[c_name][c_name] = 1.0
+    return to_return
 
 def dolookup(num):
     pd.DataFrame([corpus_input['foxnews']['articles'][num]['text']]).to_clipboard(index=False, header=False)

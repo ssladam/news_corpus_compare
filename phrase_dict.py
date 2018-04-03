@@ -123,6 +123,7 @@ def get_phrases():
 "weapons of mass destruction":"wmd",\
 "weapon of mass destruction":"wmd",\
 "white supremacist":"whitesupremacist",\
+"police shooting":"policeshooting",\
 
 
 

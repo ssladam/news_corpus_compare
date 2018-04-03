@@ -9,27 +9,53 @@
 #  instances, in whatever DSI they appear in.
 
 #Todo: Create another "weighted_concept_dict" to allow weighting CONCEPTS, indpendent of ECs
+#   Note: I've since repurposed this file. No longer weights terms, now only concepts
 
 def get_weights():
     weight_dict = {
-"donaldTrump":1,\
-"surajPatel":10,\
-"sanction":5,\
-"trade":5,\
-"gun":10,\
-"ar15":10,\
-"kellyanneConway":3,\
-"georgeConway":3,\
-"carterPage":3,\
-"rushernBaker":5,\
-"tonyBaker":5,\
-"lisaPage":3,\
-"stephonClark":5,\
-"peteSessions":3,\
-"brendanKelly":3,\
-"anthonyKennedy":3,\
-"jerryBrown":3,\
-"robPorter":3,\
+# "donaldTrump":1,\
+# "surajPatel":10,\
+# "sanction":5,\
+# "trade":5,\
+# "gun":10,\
+# "ar15":10,\
+# "kellyanneConway":3,\
+# "georgeConway":3,\
+# "carterPage":3,\
+# "rushernBaker":5,\
+# "tonyBaker":5,\
+# "lisaPage":3,\
+# "stephonClark":5,\
+# "peteSessions":3,\
+# "brendanKelly":3,\
+# "anthonyKennedy":3,\
+# "jerryBrown":3,\
+# "robPorter":3,\
+
+
+"violenceCrime":2,\
+"ethics":5,\
+"trumpAdministration":0.5,\
+"environment":3,\
+"unitedStates":0.01,\
+"foundingFather":0.1,\
+"russiaElectionInterference":5,\
+"foreignTrade":5,\
+"economy":5,\
+"immigration":5,\
+"racialTension":5,\
+"trumpImpeachment":5,\
+"fbiMisconduct":5,\
+"guns":10,\
+"cyberSecurity":2,\
+"civilRights":4,\
+"religion":5,\
+"terrorism":5,\
+"healthcare":5,\
+"presidentDonaldTrump":0.2,\
+"education":3,\
+"opinionPolls":4,\
+
 
 
         }
