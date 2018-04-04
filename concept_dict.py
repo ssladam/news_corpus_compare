@@ -1493,6 +1493,48 @@ def get_concepts():
 "youth law enforcement academy":"lawEnforcement",\
 "yuliaTymoshenko":"foreignLeader",\
 "yvetteClarke":"democrat",\
+"michaelScrenock":"republican",\
+"rebeccaDallet":"democrat",\
+"saudi arabia":"middleEast",\
+"brettMcgurk":"terrorism",\
+"flightRisk":"violenceCrime",\
+"USLaw":"government",\
+"deathPenalty":"lawEnforcement",\
+"nasimAghdam":"terrorism",\
+"bobNonini":"republican",\
+"USCompany":"economy",\
+"idaho":"unitedStates",\
+"chrisSununu":"republican",\
+"USInterest":"internationalPolitics",\
+"drug":"violenceCrime",\
+"kristinBrown":"guns",\
+"josephVotel":"war",\
+"fifthamendment":"judicial",\
+"trentLott":"republican",\
+
+"sallyYates":"trumpStaff",\
+"dailyStormer":"extremeRight",\
+"andrewAnglin":"extremeRight",\
+"betoOrouke":"democrat",\
+"dowJones":"economy",\
+"nasdaqIndex":"economy",\
+"marketIndex":"economy",\
+"benjaminNetanyahu":"foreignLeader",\
+"madelaineAlbright":"democrat",\
+"eNationalist":"extremeRight",\
+"eBitcoin":"economy",\
+"eFarLeft":"extremeLeft",\
+"eFascism":"extremeRight",\
+"liberalsnowflake":"extremeLeft",\
+"conservativesnowflake":"extremeRight",\
+"eFarRight":"extremeRight",\
+"eCarEmissions":"environment",\
+"pattySchachtner":"democrat",\
+"eNYSE":"economy",\
+"charlottesville":"extremeRight",\
+"marlaMaple":"trumpFamily",\
+"tiffanyTrump":"trumpFamily",\
+"breitbart":"extremeRight",\
 
 
 

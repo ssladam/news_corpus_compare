@@ -1854,6 +1854,173 @@ def get_ecs():
 "zuma":"jacobZuma",\
 "zwaan":"alexVanDerZwaan",\
 "bratislava":"slovakia",\
+"caravan":"immigration",\
+"caravans":"immigration",\
+"dallet":"rebeccaDallet",\
+"rebecca dallet":"rebeccaDallet",\
+"screnock":"michaelScrenock",\
+"michael screnock":"michaelScrenock",\
+"judge rebecca dallet":"rebeccaDallet",\
+"bluewave":"election",\
+"swing":"election",\
+"national guard":"USMilitary",\
+"lorraine motel":"mlk",\
+"KrebsOnSecurity ":"cybersecurity",\
+"krebs":"cybersecurity",\
+"gulf leader":"middleEast",\
+"state department official":"stateDepartment",\
+"intelligence official":"intelligence",\
+"martin luther king jr":"mlk",\
+"arrest":"lawEnforcement",\
+"migration":"immigration",\
+"mcgurk":"brettMcgurk",\
+"brett mcgurk":"brettMcgurk",\
+"flight risk":"flightRisk",\
+"flightrisk":"flightRisk",\
+"imsi catcher":"stingray",\
+"imsi":"stingray",\
+"u law":"USLaw",\
+"gulf cooperation council":"middleEast",\
+"aghdam":"nasimAghdam",\
+"death penalty":"deathPenalty",\
+"nasim aghdam":"nasimAghdam",\
+"nonini":"bobNonini",\
+"bob nonini":"bobNonini",\
+"border patrol":"borderPatrol",\
+"ismail aghdam":"nasimAghdam",\
+"trade practice":"trade",\
+"us company":"USCompany",\
+"yates":"sallyYates",\
+"sununu":"chrisSununu",\
+"sally yates":"sallyYates",\
+"chris sununu":"chrisSununu",\
+"army maj gen peter aylward":"USMilitary",\
+"peter aylward":"USMilitary",\
+"aylward":"USMilitary",\
+"texas civilrights project":"civilRights",\
+"martin omalley":"martinOmalley",\
+"patrol":"lawEnforcement",\
+"enforcement activity":"lawEnforcement",\
+"border agent":"borderPatrol",\
+"defense secretary jim mattis":"jamesMattis",\
+"voting right law":"election",\
+"interview trump":"donaldTrump",\
+"melania":"melaniaTrump",\
+"alien":"immigration",\
+"nasim":"nasimAghdam",\
+"us interest":"USInterest",\
+"abortionist":"abortion",\
+"trade secret":"trade",\
+"defense department":"USMilitary",\
+"court case":"court",\
+"drone":"war",\
+"narcotic":"drug",\
+"kristin brown":"kristinBrown",\
+"us navy ship":"USMilitary",\
+"nasim aghdam":"nasimAghdam",\
+"immigration crime":"immigration",\
+"crime date":"crime",\
+"census authority":"USCensus",\
+"selfincrimination":"crime",\
+"votel":"josephVotel",\
+"joseph votel":"josephVotel",\
+"general joseph votel":"josephVotel",\
+"gen joseph votel":"josephVotel",\
+"centcom":"USMilitary",\
+"mississippi republican":"republican",\
+"drug crime":"crime",\
+"prosecution caseload":"court",\
+"fifth amendment privilege":"fifthamendment",\
+"census information":"USCensus",\
+"census report":"USCensus",\
+"trent lott":"trentLott",\
+"mr cruz":"tedCruz",\
+"daily stormer":"dailyStormer",\
+"anglin":"andrewAnglin",\
+"mr orourke":"betoOrouke",\
+"andrew anglin":"andrewAnglin",\
+"beto orourke":"betoOrouke",\
+"orourke":"betoOrouke",\
+"dow":"dowJones",\
+"dow jones":"dowJones",\
+"nasdaq":"nasdaqIndex",\
+"campaign event":"campaign",\
+"transgender student":"gayRights",\
+"gender identity":"gayRights",\
+"index":"marketIndex",\
+"moonbase holding":"conspiracy",\
+"nationalrifleassociation":"nationalRifleAssociation",\
+"trump attorney":"attorney",\
+"hatreon":"nazi",\
+"ethic rule":"ethic",\
+"state supreme court":"court",\
+"netanyahu":"benjaminNetanyahu",\
+"win state":"election",\
+"beaumont":"crime",\
+"bitcoin":"eBitcoin",\
+"mexican":"mexico",\
+"benjamin netanyahu":"benjaminNetanyahu",\
+"supreme court race":"election",\
+"restroom":"gayRights",\
+"dallets":"rebeccaDallet",\
+"albright":"madelaineAlbright",\
+"secretary devos":"betsyDevos",\
+"madelaine albright":"madelaineAlbright",\
+"nationalist":"eNationalist",\
+"dow jones":"dowJones",\
+"candidate win wisconsin supreme court race more":"election",\
+"far left":"eFarLeft",\
+"fascism":"eFascism",\
+"authoritarianism":"eFarRight",\
+"senate committee":"government",\
+"scot ross":"eFarLeft",\
+"ronald kessler":"ronaldKessler",\
+"president trump donald john trumpwalker":"donaldTrump",\
+"state republican party":"republican",\
+"assistant district attorney":"attorney",\
+"protester":"protests",\
+"wisconsin court":"court",\
+"law professor":"lawyer",\
+"muellers description":"robertMueller",\
+"sauk county circuit court judge michael screnock":"michaelScrenock",\
+"special counsel robert s mueller iii":"robertMueller",\
+"justin jones":"eFarRight",\
+"deputy attorney general rod j rosenstein":"rodRosenstein",\
+"peter carr":"robertMueller",\
+"cryptocurrency":"eBitcoin",\
+"school finance":"education",\
+"law school":"lawyer",\
+"counsel office":"robertMueller",\
+"wisenberg":"lawyer",\
+"market day":"economy",\
+"scottwalker":"scottWalker",\
+"assassin":"espionage",\
+"european":"europe",\
+"attorney general eric holder":"ericHolder",\
+"senate republican leader":"republican",\
+"obama car emission":"eCarEmissions",\
+"tax cut bill":"tax",\
+"wisconsin supreme court":"court",\
+"democrat patty schachtner":"pattySchachtner",\
+"schachtner":"pattySchachtner",\
+"ted cruzs side":"tedCruz",\
+"concern republican":"republican",\
+"new york stock exchange":"eNYSE",\
+"overnight energy":"energy",\
+"state supreme court race":"election",\
+"jurist":"jury",\
+"wisconsin democrat":"democrat",\
+"wife marla maple":"marlaMaple",\
+"tiffany trump":"tiffanyTrump",\
+"marla maple":"marlaMaple",\
+"school funding plan":"education",\
+"intelligence chief":"intelligence",\
+"texas conservative":"extremeRight",\
+"justice michael gableman":"judge",\
+"court ruling":"court",\
+"support epa":"environmentalProtectionAgency",\
+"campaign slogan":"campaign",\
+"fascist":"eFascism",\
 
 
 

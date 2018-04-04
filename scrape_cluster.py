@@ -17,12 +17,6 @@ from scipy.spatial.distance import pdist
 from random import randint
 plt.ioff() #if you keep getting a blank pop-up figure window, run this manually in the console
 
-#todo: DELETE THIS SECTION
-# def pinpointconcept(df, c_name):
-#     df[c_name] = 0.0
-#     df[c_name][c_name] = 1.0
-#     return df
-
 
 #If you've never setup nltk previously, execute the following line
 #nltk.download()
@@ -35,13 +29,13 @@ continue_exec = True #Do not change
 num_term_clusters = 7 #how many clusters do you want for terms?
 num_concept_clusters = 13 #how many clusters for concepts?
 num_terms_in_cluster = 40 #how many of the top-terms within each cluster do you want to report?
-# corpus_path = "C:/Users/adams/OneDrive/Documents/Northwestern/453 - Text/Scraper/" #location where corpus YAML is saved
-# output_path = "C:/Users/adams/OneDrive/Documents/Northwestern/453 - Text/output/" #location you will output all files
-# script_path = "C:/Users/adams/OneDrive/Documents/Northwestern/453 - Text/" #location where you have saved the collection of python files
+corpus_path = "C:/Users/adams/OneDrive/Documents/Northwestern/453 - Text/Scraper/" #location where corpus YAML is saved
+output_path = "C:/Users/adams/OneDrive/Documents/Northwestern/453 - Text/output/" #location you will output all files
+script_path = "C:/Users/adams/OneDrive/Documents/Northwestern/453 - Text/" #location where you have saved the collection of python files
 
-corpus_path = "C:/temp/NU/453/news_compare/article_input/" #location where corpus YAML is saved
-output_path = "C:/temp/NU/453/news_compare/output/" #location you will output all files
-script_path = "C:/temp/NU/453/news_compare/" #location where you have saved the collection of python files
+# corpus_path = "C:/temp/NU/453/news_compare/article_input/" #location where corpus YAML is saved
+# output_path = "C:/temp/NU/453/news_compare/output/" #location you will output all files
+# script_path = "C:/temp/NU/453/news_compare/" #location where you have saved the collection of python files
 #========GLOBAL VARIABLES YOU CAN CUSTOMIZE TO TWEAK BEHAVIOR============
 
 #Did you forget to put the backslash at the end of your input folders?
@@ -430,7 +424,8 @@ def make_magic_happen(corpus_path, output_path, phrase_dict, ec_dict, filter_wor
             #  I want to avoid doing it with another 'for' loop, which would be an easy fix
             if(indexSr.str.match(key,case=False).any()):
                 try: masterdf_terms.at[masterdf_terms.index[indexSr[indexSr==key].index[0]], 'concept'] = value
-                except: print("Key matched in " + source+ " concept search, but does not exist in term index: \""+key+"\"")
+                #except: print("Key matched in " + source+ " concept search, but does not exist in term index: \""+key+"\"")
+                except: continue
         del indexSr
         
         #masterdf_terms['concept'] = np.where(masterdf_terms.index.str.lower().apply(lambda x: any(x.endswith(i) for i in indexSr)), concept_dict[x],'UNKNOWN')
@@ -505,26 +500,6 @@ def make_magic_happen(corpus_path, output_path, phrase_dict, ec_dict, filter_wor
                 else: print('failed to assign weighting, key not found in '+source+' index:\"'+term+'\"')
             except: print('failed to assign weighting:\"'+term+'\"')
         del term, val, col
-        
-        #todo: DELETE THIS SECTION
-        # matrix_cols = pinpointconcept(masterdf_concepts, 'violenceCrime')
-        # matrix_cols = pinpointconcept(masterdf_concepts, 'environment')
-        # matrix_cols = pinpointconcept(masterdf_concepts, 'russiaElectionInterference')
-        # matrix_cols = pinpointconcept(masterdf_concepts, 'economy')
-        # matrix_cols = pinpointconcept(masterdf_concepts, 'ethics')
-        # matrix_cols = pinpointconcept(masterdf_concepts, 'foreignTrade')
-        # matrix_cols = pinpointconcept(masterdf_concepts, 'economy')
-        # matrix_cols = pinpointconcept(masterdf_concepts, 'immigration')
-        # matrix_cols = pinpointconcept(masterdf_concepts, 'racialTension')
-        # matrix_cols = pinpointconcept(masterdf_concepts, 'trumpImpeachment')
-        # matrix_cols = pinpointconcept(masterdf_concepts, 'fbiMisconduct')
-        # matrix_cols = pinpointconcept(masterdf_concepts, 'guns')
-        # matrix_cols = pinpointconcept(masterdf_concepts, 'cyberSecurity')
-        # matrix_cols = pinpointconcept(masterdf_concepts, 'civilRights')
-        # matrix_cols = pinpointconcept(masterdf_concepts, 'healthcare')
-        # matrix_cols = pinpointconcept(masterdf_concepts, 'education')
-        # matrix_cols = pinpointconcept(masterdf_concepts, 'opinionPolls')
-        
         
         #write the master matrix out to a CSV file
         masterdf_terms.to_csv(output_path+source+ '_' + 'master.csv')
