@@ -1,0 +1,79 @@
+Top terms per cluster:
+Cluster 0 words:
+economy, controversy, guns, healthcare, ethics, government, media, judicial, trumpStaff, education, election, foreignTrade, extremeRight, presidentDonaldTrump, independent, russiaElectionInterference, racialTension, environment, privacy, immigration, opinionPolls, trumpImpeachment, religion, internationalPolitics, war, violenceCrime, energy, trumpFamily, republican, middleEast, terrorism, foreignLeader, formerPresident, tragedy, clintonScandal, foreignNation, democrat, lawEnforcement, governmentProgram, europeanUnion
+
+DSI in cluster 0:
+DSI-7, DSI-10, DSI-12, DSI-36, DSI-45, DSI-48, DSI-55, DSI-64, DSI-78, DSI-84, DSI-92, DSI-94, DSI-106, DSI-114, DSI-118, DSI-126, DSI-137, DSI-145, DSI-149, DSI-150, DSI-151
+
+Cluster 1 words:
+guns, controversy, education, extremeRight, economy, religion, media, foreignTrade, violenceCrime, government, healthcare, tragedy, republican, judicial, civilRights, internationalPolitics, election, extremeLeft, privacy, presidentDonaldTrump, unitedStates, russiaElectionInterference, trumpStaff, immigration, opinionPolls, foreignLeader, war, china, clintonScandal, governmentProgram, ethics, trumpImpeachment, trumpFamily, cyberSecurity, democrat, racialTension, gerrymandering, environment, europeanUnion, middleEast
+
+DSI in cluster 1:
+DSI-27, DSI-33, DSI-46, DSI-47, DSI-61, DSI-76, DSI-91
+
+Cluster 2 words:
+russiaElectionInterference, judicial, election, fbiMisconduct, intelligence, violenceCrime, civilRights, economy, media, foreignNation, trumpStaff, controversy, internationalPolitics, government, presidentDonaldTrump, racialTension, europeanUnion, foreignLeader, foreignTrade, trumpFamily, lawEnforcement, extremeRight, cyberSecurity, independent, privacy, energy, republican, democrat, unitedStates, immigration, opinionPolls, war, tragedy, extremeLeft, clintonScandal, UNKNOWN, formerPresident, ethics, environment, gerrymandering
+
+DSI in cluster 2:
+DSI-17, DSI-21, DSI-22, DSI-31, DSI-34, DSI-56, DSI-79, DSI-82, DSI-96, DSI-143
+
+Cluster 3 words:
+russiaElectionInterference, trumpStaff, controversy, judicial, election, fbiMisconduct, presidentDonaldTrump, media, foreignLeader, internationalPolitics, government, europeanUnion, violenceCrime, lawEnforcement, intelligence, religion, economy, terrorism, ethics, healthcare, trumpImpeachment, privacy, war, foreignNation, cyberSecurity, opinionPolls, formerPresident, republican, clintonScandal, democrat, immigration, foreignTrade, northSouthKorea, extremeRight, UNKNOWN, extremeLeft, unitedStates, guns, civilRights, racialTension
+
+DSI in cluster 3:
+DSI-3, DSI-4, DSI-14, DSI-28, DSI-43, DSI-49, DSI-58, DSI-60, DSI-68, DSI-70, DSI-71, DSI-81, DSI-85, DSI-88, DSI-111, DSI-115, DSI-116, DSI-122, DSI-131
+
+Cluster 4 words:
+immigration, controversy, terrorism, judicial, racialTension, environment, russiaElectionInterference, foreignNation, economy, presidentDonaldTrump, government, media, civilRights, trumpStaff, violenceCrime, election, extremeRight, war, middleEast, formerPresident, governmentProgram, privacy, democrat, foreignTrade, foreignLeader, republican, tragedy, internationalPolitics, unitedStates, opinionPolls, extremeLeft, clintonScandal, education, ethics, china, cyberSecurity, guns, europeanUnion, fbiMisconduct, gerrymandering
+
+DSI in cluster 4:
+DSI-15, DSI-19, DSI-20, DSI-32, DSI-50, DSI-93, DSI-110, DSI-127, DSI-141
+
+Cluster 5 words:
+economy, healthcare, judicial, presidentDonaldTrump, unitedStates, ethics, formerPresident, foreignTrade, foreignNation, foreignLeader, fbiMisconduct, extremeRight, extremeLeft, europeanUnion, war, environment, government, energy, election, education, democrat, cyberSecurity, controversy, clintonScandal, civilRights, china, gerrymandering, guns, governmentProgram, violenceCrime, trumpStaff, trumpImpeachment, trumpFamily, tragedy, terrorism, russiaElectionInterference, republican, religion, racialTension, privacy
+
+DSI in cluster 5:
+DSI-134
+
+Cluster 6 words:
+controversy, trumpStaff, election, foreignTrade, judicial, trumpFamily, violenceCrime, presidentDonaldTrump, russiaElectionInterference, economy, government, fbiMisconduct, media, lawEnforcement, foreignNation, clintonScandal, intelligence, democrat, republican, unitedStates, education, china, extremeRight, civilRights, extremeLeft, ethics, europeanUnion, foreignLeader, environment, energy, cyberSecurity, war, guns, formerPresident, opinionPolls, trumpImpeachment, tragedy, terrorism, religion, racialTension
+
+DSI in cluster 6:
+DSI-66, DSI-67, DSI-72, DSI-123
+
+Cluster 7 words:
+guns, controversy, economy, religion, extremeRight, education, immigration, violenceCrime, election, media, civilRights, tragedy, government, terrorism, foreignNation, republican, trumpStaff, racialTension, judicial, internationalPolitics, presidentDonaldTrump, trumpFamily, privacy, democrat, lawEnforcement, unitedStates, opinionPolls, extremeLeft, china, clintonScandal, cyberSecurity, energy, environment, ethics, europeanUnion, war, fbiMisconduct, foreignLeader, foreignTrade, gerrymandering
+
+DSI in cluster 7:
+DSI-1, DSI-30, DSI-39, DSI-62, DSI-100, DSI-142
+
+Cluster 8 words:
+civilRights, controversy, education, judicial, racialTension, healthcare, economy, ethics, government, trumpStaff, trumpFamily, election, violenceCrime, formerPresident, republican, media, environment, presidentDonaldTrump, democrat, unitedStates, russiaElectionInterference, immigration, extremeRight, opinionPolls, foreignLeader, war, extremeLeft, china, clintonScandal, cyberSecurity, europeanUnion, guns, lawEnforcement, intelligence, trumpImpeachment, religion, privacy, middleEast, UNKNOWN, independent
+
+DSI in cluster 8:
+DSI-0, DSI-6, DSI-44, DSI-59, DSI-69, DSI-133, DSI-146
+
+Cluster 9 words:
+controversy, trumpStaff, russiaElectionInterference, economy, government, foreignTrade, election, healthcare, violenceCrime, judicial, guns, media, immigration, ethics, environment, religion, presidentDonaldTrump, civilRights, formerPresident, extremeRight, terrorism, fbiMisconduct, war, privacy, internationalPolitics, trumpImpeachment, opinionPolls, trumpFamily, foreignLeader, northSouthKorea, intelligence, republican, lawEnforcement, europeanUnion, china, foreignNation, democrat, middleEast, racialTension, education
+
+DSI in cluster 9:
+DSI-2, DSI-5, DSI-8, DSI-9, DSI-11, DSI-16, DSI-18, DSI-23, DSI-25, DSI-26, DSI-35, DSI-38, DSI-40, DSI-41, DSI-42, DSI-51, DSI-52, DSI-53, DSI-54, DSI-57, DSI-63, DSI-65, DSI-73, DSI-75, DSI-77, DSI-80, DSI-83, DSI-86, DSI-87, DSI-89, DSI-90, DSI-97, DSI-98, DSI-99, DSI-101, DSI-102, DSI-103, DSI-104, DSI-105, DSI-108, DSI-109, DSI-112, DSI-113, DSI-117, DSI-119, DSI-121, DSI-124, DSI-125, DSI-128, DSI-129, DSI-130, DSI-132, DSI-135, DSI-136, DSI-138, DSI-139, DSI-140, DSI-144, DSI-147, DSI-148
+
+Cluster 10 words:
+guns, controversy, education, economy, extremeRight, violenceCrime, religion, healthcare, media, election, government, trumpFamily, republican, lawEnforcement, tragedy, privacy, extremeLeft, internationalPolitics, presidentDonaldTrump, immigration, trumpStaff, opinionPolls, china, clintonScandal, energy, democrat, cyberSecurity, environment, ethics, europeanUnion, fbiMisconduct, civilRights, war, foreignLeader, middleEast, unitedStates, trumpImpeachment, terrorism, russiaElectionInterference, racialTension
+
+DSI in cluster 10:
+DSI-13, DSI-29, DSI-37, DSI-74, DSI-107, DSI-120
+
+Cluster 11 words:
+education, guns, economy, government, judicial, unitedStates, civilRights, extremeLeft, gerrymandering, formerPresident, foreignTrade, foreignNation, foreignLeader, fbiMisconduct, extremeRight, europeanUnion, clintonScandal, ethics, governmentProgram, energy, election, china, democrat, cyberSecurity, controversy, environment, war, violenceCrime, privacy, trumpStaff, trumpImpeachment, trumpFamily, tragedy, terrorism, russiaElectionInterference, republican, religion, racialTension, presidentDonaldTrump, healthcare
+
+DSI in cluster 11:
+DSI-24
+
+Cluster 12 words:
+opinionPolls, controversy, presidentDonaldTrump, government, formerPresident, election, clintonScandal, europeanUnion, gerrymandering, foreignTrade, foreignNation, foreignLeader, fbiMisconduct, extremeRight, extremeLeft, ethics, civilRights, china, governmentProgram, environment, energy, education, economy, democrat, cyberSecurity, war, guns, violenceCrime, racialTension, unitedStates, trumpStaff, trumpImpeachment, trumpFamily, tragedy, terrorism, russiaElectionInterference, republican, religion, privacy, healthcare
+
+DSI in cluster 12:
+DSI-95, DSI-152
+
