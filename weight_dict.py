@@ -55,6 +55,9 @@ def get_weights():
 "presidentDonaldTrump":0.2,\
 "education":3,\
 "opinionPolls":4,\
+"controversy":5,\
+"democrat":0.2,\
+"republican":0.2,\
 
 
 

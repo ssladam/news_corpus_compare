@@ -11,7 +11,7 @@ def get_concepts():
 "accomplice":"violenceCrime",\
 "accountability":"ethics",\
 "accuser":"controversy",\
-"aclu":"extremeRight",\
+"aclu":"extremeLeft",\
 "ad attack":"election",\
 "adamMeyers":"intelligence",\
 "adamSchiff":"democrat",\
@@ -22,6 +22,7 @@ def get_concepts():
 "affidavit":"judicial",\
 "afghanistan":"middleEast",\
 "africa":"foreignNation",\
+"aidsEpidemic":"healthcare",\
 "air quality":"environment",\
 "alabama":"unitedStates",\
 "alanDershowitz":"judicial",\
@@ -46,6 +47,8 @@ def get_concepts():
 "andrewJanz":"democrat",\
 "andrewMccabe":"trumpStaff",\
 "andrewRicci":"civilRights",\
+"andrewWeissmann":"judicial",\
+"angelaMerkel":"foreignLeader",\
 "anitaHill":"civilRights",\
 "annaKain":"civilRights",\
 "annCoulter":"extremeRight",\
@@ -70,6 +73,7 @@ def get_concepts():
 "arbitration agreement":"controversy",\
 "arbitration requirement":"controversy",\
 "arbitrator":"foreignTrade",\
+"argentina":"foreignNation",\
 "arizona":"unitedStates",\
 "arkansas":"unitedStates",\
 "arm race":"war",\
@@ -84,6 +88,7 @@ def get_concepts():
 "attorney general":"judicial",\
 "attorney office":"judicial",\
 "audraGrassia":"cyberSecurity",\
+"australia":"foreignNation",\
 "auto supplier":"economy",\
 "automaker":"economy",\
 "automation":"economy",\
@@ -91,6 +96,7 @@ def get_concepts():
 "axios report":"economy",\
 "backChannel":"russiaElectionInterference",\
 "backgroundChecks":"guns",\
+"baltic state":"europeanUnion",\
 "bangkok conference":"civilRights",\
 "bank fraud":"violenceCrime",\
 "bankFraud":"violenceCrime",\
@@ -100,13 +106,16 @@ def get_concepts():
 "basharAlAssad":"foreignLeader",\
 "bbc":"media",\
 "beijing":"china",\
+"benCarson":"trumpStaff",\
 "benghazi attack":"clintonScandal",\
 "benJealous":"civilRights",\
 "benRayLujan":"democrat",\
 "benSasse":"republican",\
 "bernieSanders":"independent",\
 "bethFukumoto":"democrat",\
+"betsyDevos":"trumpStaff",\
 "betsyDirksenLondrigan":"democrat",\
+"bible":"religion",\
 "bigData":"privacy",\
 "billClinton":"formerPresident",\
 "billGates":"economy",\
@@ -121,6 +130,7 @@ def get_concepts():
 "bobLord":"russiaElectionInterference",\
 "bobWoodward":"media",\
 "boeing":"economy",\
+"bombing":"war",\
 "border wall":"immigration",\
 "borderPatrol":"immigration",\
 "borderSecurity":"immigration",\
@@ -186,10 +196,14 @@ def get_concepts():
 "census":"immigration",\
 "census":"immigration",\
 "census question":"immigration",\
+"centralAmerica":"foreignNation",\
 "ceo":"economy",\
+"cfpb":"governmentAgency",\
 "changingTheRulesOfTheGame":"controversy",\
 "changingTheRulesOfTheGame":"controversy",\
 "charlesHarder":"controversy",\
+"chemicalweapon":"war",\
+"chemicalweapons":"war",\
 "chiefSecurityOfficer":"privacy",\
 "childsextrafficking ring":"violenceCrime",\
 "china":"china",\
@@ -197,6 +211,7 @@ def get_concepts():
 "chrisCoons":"democrat",\
 "chrisLacivita":"republican",\
 "chrisSmith":"democrat",\
+"christian democratic party cdu":"religion",\
 "christian university":"religion",\
 "christianWestermann":"controversy",\
 "christinaHagan":"republican",\
@@ -207,6 +222,7 @@ def get_concepts():
 "chrisWray":"lawEnforcement",\
 "chuckGrassley":"republican",\
 "chuckSchumer":"democrat",\
+"church":"religion",\
 "churnandburn fundraising strategy":"election",\
 "ci counterintelligence agent":"intelligence",\
 "ci counterintelligence agent":"intelligence",\
@@ -215,6 +231,7 @@ def get_concepts():
 "cindyHydeSmith":"republican",\
 "citizenship":"immigration",\
 "civilRights":"civilRights",\
+"civilrights":"civilRights",\
 "civilrights movement":"civilRights",\
 "claireMccaskill":"democrat",\
 "clarenceThomas":"judicial",\
@@ -224,6 +241,7 @@ def get_concepts():
 "cleveland":"unitedStates",\
 "climate change":"environment",\
 "clinton campaign chair":"election",\
+"clinton case":"controversy",\
 "clinton email investigation":"clintonScandal",\
 "clinton foundation":"clintonScandal",\
 "clinton investigation":"clintonScandal",\
@@ -236,9 +254,11 @@ def get_concepts():
 "colinPowell":"republican",\
 "college republican national committee":"republican",\
 "collusion":"russiaElectionInterference",\
+"colorado":"unitedStates",\
 "combat":"war",\
 "commerce":"economy",\
 "confirmation hearing":"trumpStaff",\
+"confirmationProcess":"trumpStaff",\
 "congress":"government",\
 "congressional accountability act":"ethics",\
 "congressional black caucus":"civilRights",\
@@ -279,6 +299,7 @@ def get_concepts():
 "crime":"violenceCrime",\
 "criminal":"violenceCrime",\
 "criminal act":"judicial",\
+"criminal charge":"violenceCrime",\
 "crooked hillary":"clintonScandal",\
 "crookedHillary":"clintonScandal",\
 "crystalMason":"controversy",\
@@ -288,6 +309,7 @@ def get_concepts():
 "cybersecurity":"cyberSecurity",\
 "cybersecurity practice":"cyberSecurity",\
 "cybersecurity project":"cyberSecurity",\
+"cyrilRamaphosa":"foreignLeader",\
 "czech":"europeanUnion",\
 "czech republic":"europeanUnion",\
 "daca":"immigration",\
@@ -348,8 +370,10 @@ def get_concepts():
 "directorOfNationalIntelligence":"intelligence",\
 "directorOfNationalIntelligence":"trumpStaff",\
 "disaster":"tragedy",\
+"disclosure form":"violenceCrime",\
 "discovery process":"judicial",\
 "discrimination":"racialTension",\
+"discrimination suit":"civilRights",\
 "district boundary":"gerrymandering",\
 "district court panel":"judicial",\
 "district line":"election",\
@@ -367,6 +391,7 @@ def get_concepts():
 "donaldTrump":"presidentDonaldTrump",\
 "donaldTrumpJr":"trumpFamily",\
 "donation":"election",\
+"donBlankenship":"republican",\
 "donMcgahn":"trumpStaff",\
 "dossier":"intelligence",\
 "dougJones":"democrat",\
@@ -411,28 +436,35 @@ def get_concepts():
 "enquirer":"media",\
 "enriquePenaNieto":"foreignLeader",\
 "environment":"environment",\
+"environmentalist":"environment",\
 "environmentalist group":"environment",\
 "environmentalProtectionAgency":"environment",\
 "epa":"government",\
 "episcopal church":"religion",\
 "equality":"civilRights",\
 "ericGarcetti":"democrat",\
+"ericHolder":"democrat",\
+"ericSchneiderman":"judicial",\
 "ericSwalwell":"democrat",\
 "ericTrump":"trumpFamily",\
 "erikPrince":"russiaElectionInterference",\
 "espionage":"internationalPolitics",\
 "essentialConsultants":"controversy",\
+"estonia":"europeanUnion",\
+"estonia":"europeanUnion",\
 "ethanSonneborn":"democrat",\
 "ethic":"ethics",\
 "ethic office":"government",\
 "ethic regulation":"ethics",\
 "europeanUnion":"europeanUnion",\
+"evanJenkins":"republican",\
 "executive branch":"trumpStaff",\
 "explosive":"terrorism",\
 "export":"foreignTrade",\
 "expulsion":"internationalPolitics",\
 "extradition":"judicial",\
 "extremeRight":"extremeRight",\
+"extremist":"terrorism",\
 "extremist":"terrorism",\
 "facebook":"privacy",\
 "fake dossier":"fbiMisconduct",\
@@ -442,9 +474,11 @@ def get_concepts():
 "fbi bias":"fbiMisconduct",\
 "fbi headquarters":"lawEnforcement",\
 "fbiDirector":"intelligence",\
+"fcc":"governmentAgency",\
 "february fundraiser":"election",\
 "felony":"violenceCrime",\
 "fidelCastro":"foreignLeader",\
+"filibuster":"government",\
 "finance":"economy",\
 "fireAndFury":"controversy",\
 "firing":"controversy",\
@@ -465,6 +499,7 @@ def get_concepts():
 "fultonArmstrong":"controversy",\
 "fundraiser":"election",\
 "fundraising":"election",\
+"g20 summit":"internationalPolitics",\
 "gabbyTrejo":"racialTension",\
 "garyCohn":"trumpStaff",\
 "gas industry":"energy",\
@@ -534,12 +569,16 @@ def get_concepts():
 "hearing date":"judicial",\
 "heidiHeitkamp":"democrat",\
 "heritageFoundation":"extremeRight",\
+"heroin":"violenceCrime",\
 "hillaryClinton":"democrat",\
 "holy week":"religion",\
 "homeland security":"terrorism",\
+"homicide":"violenceCrime",\
+"honduras":"foreignNation",\
 "hopeHicks":"trumpStaff",\
 "horrific shooting":"guns",\
 "hospital":"healthcare",\
+"hostage":"terrorism",\
 "house arrest":"violenceCrime",\
 "house bill":"government",\
 "house district":"election",\
@@ -556,6 +595,7 @@ def get_concepts():
 "hurricane katrina":"tragedy",\
 "hush agreement":"controversy",\
 "identity theft":"privacy",\
+"ileanaRoslehtinen":"republican",\
 "illinois":"unitedStates",\
 "immigrant":"immigration",\
 "immigration":"immigration",\
@@ -583,6 +623,7 @@ def get_concepts():
 "inspector general":"judicial",\
 "inspector general office":"government",\
 "inspector general report":"judicial",\
+"insult":"controversy",\
 "integrity":"ethics",\
 "intel":"intelligence",\
 "intelligence":"intelligence",\
@@ -590,6 +631,8 @@ def get_concepts():
 "intelligence agent":"intelligence",\
 "intelligence professional":"intelligence",\
 "internet company":"economy",\
+"internment":"judicial",\
+"invasion":"war",\
 "investigation":"russiaElectionInterference",\
 "investigator":"russiaElectionInterference",\
 "investment":"economy",\
@@ -605,9 +648,11 @@ def get_concepts():
 "islam":"religion",\
 "islamicExtremist":"terrorism",\
 "islamicState":"terrorism",\
+"israel":"middleEast",\
 "issa":"cyberSecurity",\
 "italy":"europeanUnion",\
 "ivankaTrump":"trumpFamily",\
+"jacobZuma":"foreignLeader",\
 "jail":"violenceCrime",\
 "jail time":"judicial",\
 "jamesComey":"russiaElectionInterference",\
@@ -624,11 +669,14 @@ def get_concepts():
 "jebBush":"republican",\
 "jebHensarling":"republican",\
 "jeffBezos":"economy",\
+"jeffFlake":"republican",\
 "jeffSessions":"trumpStaff",\
 "jeffZucker":"controversy",\
 "jennieWilloughby":"civilRights",\
+"jensen condo":"controversy",\
 "jeromeCorsi":"extremeRight",\
 "jerryBrown":"democrat",\
+"jessicaDenson":"civilRights",\
 "jesus":"religion",\
 "jim renacci":"republican",\
 "jimJordan":"fbiMisconduct",\
@@ -640,6 +688,7 @@ def get_concepts():
 "jobs":"economy",\
 "joeArpaio":"violenceCrime",\
 "joeBiden":"formerPresident",\
+"joeDonnelly":"democrat",\
 "joelWallenstrom":"privacy",\
 "joeMorelle":"democrat",\
 "johnBolton":"trumpStaff",\
@@ -667,6 +716,7 @@ def get_concepts():
 "josannReynolds":"judicial",\
 "joseBustani":"controversy",\
 "josephMann":"racialTension",\
+"joshHawley":"judicial",\
 "joshRaffel":"trumpStaff",\
 "jScottJennings":"republican",\
 "judge":"judicial",\
@@ -681,15 +731,18 @@ def get_concepts():
 "justiceDepartment":"judicial",\
 "justinaFugh":"ethics",\
 "justinFairfax":"democrat",\
+"justinMuzinich":"trumpStaff",\
 "justinTrudeau":"foreignLeader",\
 "kamalaHarris":"democrat",\
 "kareemLanier":"republican",\
 "karlRacine":"judicial",\
 "kayKoleJames":"controversy",\
+"kazakhstan":"foreignNation",\
 "keishaLanceBottoms":"democrat",\
 "kellyanneConway":"trumpStaff",\
 "kellyDittmar":"civilRights",\
 "kellyMazeski":"democrat",\
+"kenya":"foreignNation",\
 "kevinCollier":"cyberSecurity",\
 "kevinCramer":"republican",\
 "kevinKamenetz":"democrat",\
@@ -699,11 +752,13 @@ def get_concepts():
 "kimJongUn":"foreignLeader",\
 "kirillDmitriev":"russiaElectionInterference",\
 "kirstenGillibrand":"democrat",\
+"kirstjenNielsen":"cyberSecurity",\
 "kochBrothers":"extremeRight",\
 "konstantinKilimnik":"russiaElectionInterference",\
 "konstantinPulikovsky":"northSouthKorea",\
 "korean peninsula":"northSouthKorea",\
 "korean war":"northSouthKorea",\
+"kosovo":"europeanUnion",\
 "kremlin":"intelligence",\
 "kurd":"middleEast",\
 "kurdish":"middleEast",\
@@ -712,6 +767,7 @@ def get_concepts():
 "lambros firm llc":"judicial",\
 "larryHogan":"republican",\
 "larryKudlow":"trumpStaff",\
+"latvia":"europeanUnion",\
 "lauraIngraham":"extremeRight",\
 "lauraMoser":"democrat",\
 "lauraOlin":"media",\
@@ -722,31 +778,38 @@ def get_concepts():
 "law firm":"judicial",\
 "lawEnforcement":"lawEnforcement",\
 "lawFirm":"judicial",\
+"lawlessness":"violenceCrime",\
 "lawmaker":"government",\
 "lawyer trump":"judicial",\
 "leaker":"controversy",\
 "leighCorfman":"civilRights",\
+"leniency":"judicial",\
 "leslieGibson":"republican",\
 "lgbt":"civilRights",\
 "liberal":"extremeLeft",\
+"libertarian":"extremeRight",\
 "libtard":"extremeLeft",\
 "lindaColeman":"democrat",\
 "lindsayWalter":"trumpStaff",\
 "lindseyGraham":"republican",\
 "lisaPage":"fbiMisconduct",\
 "literacy program":"education",\
+"lithuania":"europeanUnion",\
 "litigation":"judicial",\
 "lizCheney":"republican",\
 "louDobbs":"controversy",\
 "louisiana":"unitedStates",\
+"luisGutierrez":"democrat",\
 "luizLoures":"internationalPolitics",\
 "lyndseyStuart":"education",\
 "malayahHarper":"civilRights",\
 "manufacturer":"economy",\
 "manufacturing decline":"economy",\
+"manzanarInternmentCamp":"civilRights",\
 "maralago":"presidentDonaldTrump",\
 "marciaFudge":"democrat",\
 "marcoRubio":"republican",\
+"marineLePen":"foreignLeader",\
 "markEsper":"war",\
 "markKrikorian":"racialTension",\
 "markosMoulitsas":"media",\
@@ -755,6 +818,7 @@ def get_concepts():
 "markZuckerberg":"privacy",\
 "marriage equality":"civilRights",\
 "martinaBrostrom":"civilRights",\
+"martinaKusnirova":"violenceCrime",\
 "martinOmalley":"democrat",\
 "maryBarzeeFlores":"democrat",\
 "maryland":"unitedStates",\
@@ -762,6 +826,7 @@ def get_concepts():
 "maryTaylor":"democrat",\
 "mass shooting":"guns",\
 "massacre":"tragedy",\
+"masseyenergycompany":"energy",\
 "mattBorges":"republican",\
 "matthewMcgregor":"democrat",\
 "mattRhoades":"republican",\
@@ -782,7 +847,9 @@ def get_concepts():
 "michaelFlynn":"russiaElectionInterference",\
 "michaelHorowitz":"fbiMisconduct",\
 "michelSidibe":"civilRights",\
+"mickMulvaney":"trumpStaff",\
 "microsoft":"economy",\
+"middleEast":"middleEast",\
 "middleEast":"middleEast",\
 "midterm":"election",\
 "midwestern state":"unitedStates",\
@@ -799,12 +866,14 @@ def get_concepts():
 "ministry":"religion",\
 "minnesota":"unitedStates",\
 "misconduct":"ethics",\
+"misdemeanor":"violenceCrime",\
 "missile":"war",\
 "missile launch":"war",\
 "missile test":"war",\
 "mississippi":"unitedStates",\
 "missouri":"unitedStates",\
 "mitchMcconnell":"republican",\
+"mittRomney":"republican",\
 "mittRomney":"republican",\
 "mlk":"racialTension",\
 "mogadishu":"foreignNation",\
@@ -847,6 +916,7 @@ def get_concepts():
 "nbc":"media",\
 "nbc news":"media",\
 "nbcwsj poll":"opinionPolls",\
+"nda":"judicial",\
 "nebraska":"unitedStates",\
 "needToImpeach":"trumpImpeachment",\
 "neilGorsuch":"judicial",\
@@ -856,6 +926,7 @@ def get_concepts():
 "nerve agent attack":"terrorism",\
 "nestle":"economy",\
 "netflix":"economy",\
+"nevada":"unitedStates",\
 "never trump":"trumpOpposition",\
 "new hampshire":"unitedStates",\
 "new jersey":"unitedStates",\
@@ -863,6 +934,7 @@ def get_concepts():
 "new york":"unitedStates",\
 "new york elite":"extremeLeft",\
 "new york field office":"government",\
+"newsweek":"media",\
 "newYorkTimes":"media",\
 "nfl":"economy",\
 "nicholasGaraufis":"judicial",\
@@ -909,9 +981,11 @@ def get_concepts():
 "parcel rate":"economy",\
 "pardon":"judicial",\
 "pardon attorney":"russiaElectionInterference",\
+"paris climate agreement":"environment",\
 "parkland":"guns",\
 "parole":"violenceCrime",\
 "party state convention":"election",\
+"patrickMorrisey":"republican",\
 "paulManafort":"russiaElectionInterference",\
 "paulRenfrow":"energy",\
 "paulRyan":"republican",\
@@ -921,6 +995,7 @@ def get_concepts():
 "pennsylvania":"unitedStates",\
 "pennsylvania supreme court":"judicial",\
 "pentagon":"war",\
+"perjury":"violenceCrime",\
 "pesticide":"environment",\
 "peteButtigieg":"democrat",\
 "peterMessitte":"judicial",\
@@ -931,6 +1006,7 @@ def get_concepts():
 "philBredesen":"democrat",\
 "phishing email":"cyberSecurity",\
 "physician":"healthcare",\
+"pkk":"war",\
 "plaintiff":"judicial",\
 "plane crash":"tragedy",\
 "planned parenthood":"civilRights",\
@@ -939,6 +1015,8 @@ def get_concepts():
 "png":"economy",\
 "poisoning":"war",\
 "police shooting":"racialTension",\
+"policeshooting":"racialTension",\
+"policeshootings":"racialTension",\
 "politicalMailer":"controversy",\
 "politician":"government",\
 "poll":"opinionPolls",\
@@ -950,12 +1028,14 @@ def get_concepts():
 "pollster fred yang":"opinionPolls",\
 "polluter":"environment",\
 "pollution":"environment",\
+"popeFrancis":"foreignLeader",\
 "popularity":"opinionPolls",\
 "preetBharara":"judicial",\
 "president approval number":"opinionPolls",\
 "president crime":"violenceCrime",\
 "primary":"election",\
 "primary voter":"election",\
+"prison sentence":"violenceCrime",\
 "prison time":"violenceCrime",\
 "privacy":"privacy",\
 "privateEmailServer":"clintonScandal",\
@@ -970,6 +1050,7 @@ def get_concepts():
 "progun":"guns",\
 "prosecution":"judicial",\
 "prosecutor":"judicial",\
+"protests":"controversy",\
 "psychographics":"russiaElectionInterference",\
 "publicDefender":"judicial",\
 "qanon":"controversy",\
@@ -981,6 +1062,7 @@ def get_concepts():
 "randPaul":"republican",\
 "rdif":"russiaElectionInterference",\
 "realdonaldtrump":"controversy",\
+"recusal":"judicial",\
 "redistricting":"election",\
 "redistricting process":"gerrymandering",\
 "redrawing process":"gerrymandering",\
@@ -996,6 +1078,7 @@ def get_concepts():
 "republican national committee":"republican",\
 "republican national convention":"election",\
 "republican party":"republican",\
+"republican strategist":"republican",\
 "republicanNationalConvention":"election",\
 "resolution":"internationalPolitics",\
 "retailer":"economy",\
@@ -1008,6 +1091,8 @@ def get_concepts():
 "richardOjeda":"democrat",\
 "rickGates":"russiaElectionInterference",\
 "rickScott":"republican",\
+"rickWilson":"republican",\
+"riot":"violenceCrime",\
 "robbyMook":"democrat",\
 "robertaJacobson":"internationalPolitics",\
 "robertGiuffra":"judicial",\
@@ -1019,6 +1104,7 @@ def get_concepts():
 "robertWilkie":"trumpStaff",\
 "robFrost":"republican",\
 "robPorter":"trumpStaff",\
+"robPorter":"trumpStaff",\
 "rodRosenstein":"judicial",\
 "rogerStone":"russiaElectionInterference",\
 "roman catholic":"religion",\
@@ -1026,6 +1112,7 @@ def get_concepts():
 "ronaldReagan":"formerPresident",\
 "ronaldVitiello":"immigration",\
 "ronnyJackson":"trumpStaff",\
+"ronWyden":"democrat",\
 "rosaMariaOrtega":"controversy",\
 "roseanneBarr":"controversy",\
 "royMoore":"republican",\
@@ -1040,6 +1127,7 @@ def get_concepts():
 "russia contact":"russiaElectionInterference",\
 "russia interference":"russiaElectionInterference",\
 "russia investigation":"russiaElectionInterference",\
+"russia involvement":"russiaElectionInterference",\
 "russia probe":"russiaElectionInterference",\
 "russia probe more":"russiaElectionInterference",\
 "russianIntelligence":"intelligence",\
@@ -1106,8 +1194,11 @@ def get_concepts():
 "shooter":"guns",\
 "shooting":"guns",\
 "shotgun":"guns",\
+"silvioBerlusconi":"foreignLeader",\
 "sinclairBroadcastGroup":"media",\
+"skadden":"russiaElectionInterference",\
 "slaughter":"violenceCrime",\
+"slovakia":"europeanUnion",\
 "soldier":"war",\
 "somali":"foreignNation",\
 "somalia":"foreignNation",\
@@ -1116,8 +1207,10 @@ def get_concepts():
 "south america":"internationalPolitics",\
 "south carolina":"unitedStates",\
 "south dakota":"unitedStates",\
+"southAfrica":"foreignNation",\
 "southKorea":"northSouthKorea",\
 "space exploration company":"economy",\
+"spain":"foreignNation",\
 "special counsel investigation":"russiaElectionInterference",\
 "specialCounsel":"russiaElectionInterference",\
 "spending bill":"governmentProgram",\
@@ -1154,8 +1247,12 @@ def get_concepts():
 "steveBannon":"trumpStaff",\
 "steveBullock":"democrat",\
 "stevenCheung":"trumpStaff",\
+"stevenMnuchin":"trumpStaff",\
 "steveScalise":"republican",\
+"stingray":"lawEnforcement",\
 "stock":"economy",\
+"stockmarket":"economy",\
+"stockmarkets":"economy",\
 "stormyDaniels":"controversy",\
 "student":"education",\
 "subpoena":"judicial",\
@@ -1171,6 +1268,7 @@ def get_concepts():
 "surveillance warrant":"intelligence",\
 "susanMcdougal":"clintonScandal",\
 "susanRice":"controversy",\
+"sweden":"europeanUnion",\
 "swing state":"election",\
 "syngenta":"environment",\
 "syria":"middleEast",\
@@ -1200,6 +1298,7 @@ def get_concepts():
 "terryMcauliffe":"democrat",\
 "texas":"unitedStates",\
 "thadCochran":"election",\
+"thailand":"foreignNation",\
 "theparisagreement":"environment",\
 "thinkprogress":"extremeLeft",\
 "thomasJefferson":"foundingFather",\
@@ -1248,6 +1347,7 @@ def get_concepts():
 "trumpImpeachment":"trumpImpeachment",\
 "trumpimpeachmentment":"trumpImpeachment",\
 "trumpOpposition":"trumpOpposition",\
+"truthers":"extremeRight",\
 "tuckerCarlson":"republican",\
 "turkey":"foreignNation",\
 "tweet":"controversy",\
@@ -1264,6 +1364,7 @@ def get_concepts():
 "uk":"europeanUnion",\
 "ukraine":"foreignNation",\
 "unaids":"internationalPolitics",\
+"underseaCable":"internationalPolitics",\
 "undocumentedimmigrant":"immigration",\
 "undocumentedImmigrants":"immigration",\
 "undocumentedimmigrants":"immigration",\
@@ -1273,6 +1374,7 @@ def get_concepts():
 "unitedNations":"internationalPolitics",\
 "unitedStates":"unitedStates",\
 "UNSecretaryGeneral":"internationalPolitics",\
+"upperbigbranchmine":"tragedy",\
 "us ambassador":"internationalPolitics",\
 "us ambassador":"internationalPolitics",\
 "us army":"war",\
@@ -1298,6 +1400,8 @@ def get_concepts():
 "usa today":"media",\
 "USAlly":"internationalPolitics",\
 "USAttorney":"judicial",\
+"USCensus":"immigration",\
+"USCensusBureau":"governmentAgency",\
 "USConsulate":"internationalPolitics",\
 "USCourt":"judicial",\
 "usda":"government",\
@@ -1332,6 +1436,7 @@ def get_concepts():
 "voter":"government",\
 "voter fraud":"controversy",\
 "voter registration":"election",\
+"votingrightsact":"civilRights",\
 "vox":"media",\
 "walkout":"guns",\
 "wall":"immigration",\
@@ -1357,6 +1462,7 @@ def get_concepts():
 "white house official":"trumpStaff",\
 "white house physician":"healthcare",\
 "white house staffer":"trumpStaff",\
+"white house summit":"government",\
 "white house wednesday":"trumpStaff",\
 "whitehouse":"trumpStaff",\
 "whitesupremacist":"racialTension",\
@@ -1375,8 +1481,11 @@ def get_concepts():
 "workplace misconduct":"civilRights",\
 "world":"internationalPolitics",\
 "worldHealthOrganization":"healthcare",\
+"worldWaterDay":"environment",\
 "wrongdoing":"ethics",\
 "wto":"foreignTrade",\
+"ww2":"war",\
+"wyoming":"unitedStates",\
 "xiJinPing":"foreignLeader",\
 "xiYueWang":"middleEast",\
 "yahoo":"economy",\
@@ -1384,10 +1493,6 @@ def get_concepts():
 "youth law enforcement academy":"lawEnforcement",\
 "yuliaTymoshenko":"foreignLeader",\
 "yvetteClarke":"democrat",\
-"policeshooting":"racialTension",\
-"policeshootings":"racialTension",\
-"chemicalweapon":"war",\
-"chemicalweapons":"war",\
 
 
 

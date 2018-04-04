@@ -41,6 +41,7 @@ def get_ecs():
         "percent tariff": "tariff", \
         "tariff hike": "tariff", \
         # ====================Begin pasted from excel generator=====================
+"a thai navy instructor":"USMilitary",\
 "abortion clinic":"abortion",\
 "abortion provider":"abortion",\
 "abrams":"staceyAbrams",\
@@ -55,11 +56,15 @@ def get_ecs():
 "adam meyers":"adamMeyers",\
 "adm mike rogers":"mikeRogers",\
 "adm ronny jackson":"ronnyJackson",\
+"adm ronny l jackson":"ronnyJackson",\
 "administrator pruitt":"scottPruitt",\
 "admiral ronny jackson":"ronnyJackson",\
+"adult film star stormy daniel":"stormyDaniels",\
 "advertisement wallenstrom":"joelWallenstrom",\
 "affordable care act":"obamacare",\
 "african":"africa",\
+"african national congress":"africa",\
+"aid epidemic":"aidsEpidemic",\
 "aide john kelly":"johnKelly",\
 "alex jones":"alexJones",\
 "alex stamos":"alexStamos",\
@@ -67,6 +72,9 @@ def get_ecs():
 "alexander hamilton":"alexanderHamilton",\
 "alexander nix":"cambridgeAnalytica",\
 "alito":"samuelAlito",\
+"almazov national medical research centre":"russia",\
+"aluminium import":"trade",\
+"aluminum import":"trade",\
 "amanda renteria":"amandaRenteria",\
 "amazon share":"amazon",\
 "ambassador jon huntsman":"jonHuntsman",\
@@ -75,12 +83,14 @@ def get_ecs():
 "americancivillibertiesunion":"aclu",\
 "amy klobuchar":"amyKlobuchar",\
 "amzn":"amazon",\
+"anatoly antonov":"anatolyAntonov",\
 "anderson cooper":"andersonCooper",\
 "andrew cuomo":"andrewCuomo",\
 "andrew mccabe":"andrewMccabe",\
 "andrew mccabe fired":"andrewMccabe",\
 "andrew mccabe legal defense fund":"andrewMccabe",\
 "andrew mccabes fbi career":"andrewMccabe",\
+"andrew weissmann":"andrewWeissmann",\
 "anita hill":"anitaHill",\
 "anna kain":"annaKain",\
 "anthony":"anthonyScaramucci",\
@@ -96,18 +106,25 @@ def get_ecs():
 "antonio villaraigosa":"antonioVillaraigosa",\
 "antonov":"anatolyAntonov",\
 "apol":"davidJApol",\
+"arab israeli":"israel",\
+"arab land":"middleEast",\
 "arbitration clause":"arbitration",\
 "arbitration provision":"arbitration",\
+"arizona sen jeff flake":"jeffFlake",\
 "arm control":"guns",\
 "armstrong":"fultonArmstrong",\
+"army soldier":"USMilitary",\
 "arpaio":"joeArpaio",\
 "assad":"basharAlAssad",\
 "assange":"julianAssange",\
 "assassination":"espionage",\
+"assault rifle":"ar15",\
 "assistant attorney general stephen boyd":"stephenBoyd",\
 "assistant attorney general stephen boyd":"stephenBoyd",\
 "assistant john mcentee":"johnMcentee",\
 "asylum":"immigration",\
+"asylum hearing":"immigration",\
+"asylum seeker":"immigration",\
 "atlanta mayor keisha lance bottom":"keishaLanceBottoms",\
 "attorney alex van der zwaan":"alexVanDerZwaan",\
 "attorney general jeff session":"jeffSessions",\
@@ -138,10 +155,13 @@ def get_ecs():
 "beautiful wall":"borderwall",\
 "bedroom apartment":"controversy",\
 "bella thorne":"roseanneBarr",\
+"ben carson":"benCarson",\
 "ben jealous":"benJealous",\
 "bentsenrio grande valley state park":"wildlife",\
+"berlusconi":"silvioBerlusconi",\
 "bernie":"bernieSanders",\
 "bernie sander":"bernieSanders",\
+"betsy devos":"betsyDevos",\
 "betsy dirksen londrigan":"betsyDirksenLondrigan",\
 "bezos":"jeffBezos",\
 "bharara":"preetBharara",\
@@ -155,6 +175,7 @@ def get_ecs():
 "black life matter":"blackLivesMatter",\
 "blackwater":"erikPrince",\
 "blakely":"brentBlakely",\
+"blankenship":"donBlankenship",\
 "blumenthal":"richardBlumenthal",\
 "bob lord":"bobLord",\
 "bob woodward rule":"bobWoodward",\
@@ -164,7 +185,10 @@ def get_ecs():
 "bolton spokesperson garrett marquis":"johnBolton",\
 "boltons":"johnBolton",\
 "booker":"coryBooker",\
+"border demarcation deal":"immigration",\
 "border fence":"borderwall",\
+"border law":"immigration",\
+"border legislation":"immigration",\
 "border patrol agent":"borderPatrol",\
 "border patrol agent":"borderwall",\
 "bordersecurity funding":"borderwall",\
@@ -185,6 +209,7 @@ def get_ecs():
 "britain":"unitedKingdom",\
 "british":"unitedKingdom",\
 "brittanie mountz":"brittanieMountz",\
+"broadcast station":"sinclairBroadcastGroup",\
 "brostrom":"martinaBrostrom",\
 "brother anthony scaramucci":"anthonyScaramucci",\
 "bruce rauner":"bruceRauner",\
@@ -205,6 +230,7 @@ def get_ecs():
 "cambridge analytica":"cambridgeAnalytica",\
 "cambridge analytica employee":"cambridgeAnalytica",\
 "campaign aide":"campaign",\
+"campaign chairman paul manafort":"paulManafort",\
 "campaign loss":"campaign",\
 "campaign manager matt rhoades":"mattRhoades",\
 "campaign politics":"campaign",\
@@ -213,19 +239,30 @@ def get_ecs():
 "campaign trump campaign chair paul manafort":"paulManafort",\
 "canadian prime minister justin trudeau":"justinTrudeau",\
 "canvassing":"campaign",\
+"caravan of illegal immigrant headed to us":"immigration",\
 "carlson":"tuckerCarlson",\
 "carney":"jayCarney",\
 "caroline":"carolineSunshine",\
 "caroline sunshine":"carolineSunshine",\
 "carolyns record":"carolynMaloney",\
+"carson":"benCarson",\
 "carter page":"carterPage",\
 "casey":"conorCasey",\
+"cash cow nafta":"nafta",\
 "cbp":"customsAndBorderProtection",\
+"census bureau":"USCensusBureau",\
+"census bureau official":"USCensusBureau",\
+"census data":"USCensus",\
+"census official":"USCensus",\
+"central america":"centralAmerica",\
 "ceo jeff bezos":"jeffBezos",\
 "ceo sean trauschke":"robertTrauschke",\
 "challenger suraj patels":"surajPatel",\
 "challenger suraj patels":"surajPatel",\
 "charles harder":"charlesHarder",\
+"cheatin":"insult",\
+"cheatin obama":"insult",\
+"cheatinobama":"insult",\
 "cheneyrumsfeld era":"bushAdministration",\
 "cheung":"stevenCheung",\
 "chief justice john robert":"johnRoberts",\
@@ -234,6 +271,7 @@ def get_ecs():
 "chiefofstaff john kelly":"johnKelly",\
 "childhood arrival program":"immigration",\
 "chinese":"china",\
+"chinese communist party":"china",\
 "chinese president xi jinping":"xiJinPing",\
 "chris christie":"chrisChristie",\
 "chris lacivita":"chrisLacivita",\
@@ -250,6 +288,8 @@ def get_ecs():
 "cindy hydesmith":"cindyHydeSmith",\
 "circuit court":"USCourt",\
 "citizenship question":"citizenship",\
+"citizenship status":"immigration",\
+"civilrights":"civilRights",\
 "claire mccaskill":"claireMccaskill",\
 "clarence thomas":"clarenceThomas",\
 "clark case":"stephonClark",\
@@ -269,6 +309,7 @@ def get_ecs():
 "commanderinchief":"donaldTrump",\
 "company vice president paul renfrow":"paulRenfrow",\
 "confidentiality provision":"settlement",\
+"confirmation process":"confirmationProcess",\
 "congresswoman esty":"elizabethEsty",\
 "connecticut democrat":"democrat",\
 "conner household":"roseanneBarr",\
@@ -278,6 +319,8 @@ def get_ecs():
 "conor lamb win":"conorLamb",\
 "conservative":"extremeRight",\
 "conspiracy theory":"controversy",\
+"consumer financial protection bureau":"cfpb",\
+"consumer price index afpgetty":"economy",\
 "conversation fbi official":"fbi",\
 "coon":"chrisCoons",\
 "cooper":"cooperCaffrey",\
@@ -294,10 +337,13 @@ def get_ecs():
 "counsel investigation":"robertMueller",\
 "counsel robert mueller robert swan muellersasse":"robertMueller",\
 "counsel robert mueller tuesday":"robertMueller",\
+"counsel robert muellers investigation":"robertMueller",\
 "counsel robert s mueller iii":"robertMueller",\
 "counsel team":"robertMueller",\
 "counsel work":"specialCounsel",\
 "county seat":"election",\
+"cppcc":"china",\
+"crimea":"war",\
 "cruz":"tedCruz",\
 "crystal mason":"crystalMason",\
 "cuban threat":"cuba",\
@@ -354,12 +400,16 @@ def get_ecs():
 "defending digital democracy cofounder":"defendingDigitalDemocracy",\
 "defense budget":"USMilitary",\
 "defense secretary donald rumsfeld":"donaldRumsfeld",\
+"defense secretary james":"jamesMattis",\
 "defense secretary james mattis":"jamesMattis",\
+"defense spending":"war",\
 "dem":"democrat",\
 "democrat andrew janz":"andrewJanz",\
 "democrat candidate":"democrat",\
 "democrat linda coleman":"lindaColeman",\
+"demonstration march":"protests",\
 "dems":"democrat",\
+"denson":"jessicaDenson",\
 "deputy attorney general rod rosenstein":"rodRosenstein",\
 "deputy director andrew mccabe":"andrewMccabe",\
 "deputy director job":"office",\
@@ -368,8 +418,10 @@ def get_ecs():
 "deripaskas":"olegDeripaska",\
 "deripaskas representative":"olegDeripaska",\
 "dershowitz":"alanDershowitz",\
+"despot kim jong un":"kimJongUn",\
 "detention facility":"USMilitary",\
 "devin nunes":"devinNunes",\
+"devos":"betsyDevos",\
 "dewine":"mikeDewine",\
 "dewine ally":"mikeDewine",\
 "dewines campaign":"mikeDewine",\
@@ -388,6 +440,7 @@ def get_ecs():
 "doe":"departmentOfEnergy",\
 "doj inspector general":"michaelHorowitz",\
 "doj spokesperson sarah isgur flores":"sarahIsgurFlores",\
+"don blakenship":"donBlankenship",\
 "don mcgahn":"donMcgahn",\
 "donald":"donaldTrump",\
 "donald j trump":"donaldTrump",\
@@ -396,6 +449,7 @@ def get_ecs():
 "donald trump deputy campaign chairman rick gate":"rickGates",\
 "donald trump jr":"donaldTrumpJr",\
 "donaldjtrumpjr":"donaldTrumpJr",\
+"donnelly":"joeDonnelly",\
 "doug jones":"dougJones",\
 "dowd":"johnDowd",\
 "dprk":"northKorea",\
@@ -411,6 +465,8 @@ def get_ecs():
 "economics":"economy",\
 "economy standard":"economy",\
 "education budget":"education",\
+"education secretary betsy devos":"betsyDevos",\
+"election ad":"campaign",\
 "election ballot":"election",\
 "election bid":"eleciton",\
 "election cycle":"election",\
@@ -420,9 +476,11 @@ def get_ecs():
 "emma gonzalez":"emmaGonzalez",\
 "emmanuel macron":"emmanuelMacron",\
 "encryption software company":"cybersecurity",\
+"endgunviolence":"gun",\
 "energy company":"energy",\
 "england":"unitedKingdom",\
 "environmental protection agency":"environmentalProtectionAgency",\
+"environmental protection agency administrator scott pruitt":"scottPruitt",\
 "epa administrator":"environmentalProtectionAgency",\
 "epa administrator scott pruitt":"scottPruitt",\
 "epa chief":"environmentalProtectionAgency",\
@@ -433,21 +491,28 @@ def get_ecs():
 "epa secretary":"environmentalProtectionAgency",\
 "epa source":"environmentalProtectionAgency",\
 "epa travel":"environmentalProtectionAgency",\
+"eric holder":"ericHolder",\
+"eric schneiderman":"ericSchneiderman",\
 "eric trump":"ericTrump",\
 "erik prince":"erikPrince",\
 "escobar":"veronicaEscobar",\
+"esd america":"cybersecurity",\
 "esper":"markEsper",\
 "essential consultants":"essentialConsultants",\
 "esty":"elizabethEsty",\
 "estys":"elizabethEsty",\
 "ethan":"ethanSonneborn",\
 "ethan sonneborn":"ethanSonneborn",\
+"ethic issue":"ethic",\
 "ethic practice":"ethic",\
 "eu twice":"europeanUnion",\
 "europe":"europeanUnion",\
 "european union":"europeanUnion",\
+"evan jenkins":"evanJenkins",\
 "exchange student tinka hessenheffer":"carolineSunshine",\
+"executive office":"donaldTrump",\
 "exporter":"eExport",\
+"extremist buddhist mob":"extremist",\
 "facebook controversy":"facebook",\
 "facebook data":"facebook",\
 "facebook image":"facebook",\
@@ -457,6 +522,7 @@ def get_ecs():
 "facebooks chiefsecurityofficer":"facebook",\
 "fake news":"media",\
 "fake news narrative":"fakenews",\
+"fake news network":"fakenews",\
 "fake story":"fakenews",\
 "fake washington post":"fakenews",\
 "farage":"nigelFarage",\
@@ -471,6 +537,7 @@ def get_ecs():
 "fbi director james":"jamesComey",\
 "fbi director james comeys conversation":"jamesComey",\
 "fbi informant":"fbi",\
+"fbi investigation":"fbi",\
 "fbi lawyer lisa page":"lisaPage",\
 "fbi leader":"fbi",\
 "fbi mole robert hanssen":"espionage",\
@@ -488,6 +555,7 @@ def get_ecs():
 "feinsteins campaign":"dianneFienstein",\
 "feinsteins reelection":"election",\
 "felony conviction":"felony",\
+"female protestor":"protests",\
 "fidel castro uprising":"fidelCastro",\
 "fire robert mueller":"robertMueller",\
 "firearm":"guns",\
@@ -497,7 +565,9 @@ def get_ecs():
 "fisa court":"fisa",\
 "fisa warrant":"fisa",\
 "fisc":"foreignIntelligenceSurveillanceCourt",\
+"flake":"jeffFlake",\
 "flores":"sarahIsgurFlores",\
+"florida attack":"parkland",\
 "florida school shooting":"parkland",\
 "florida sen marco rubio":"marcoRubio",\
 "flynn":"michaelFlynn",\
@@ -508,11 +578,16 @@ def get_ecs():
 "foreign intelligence surveillance court":"fisa",\
 "former president barack obama":"barackObama",\
 "former veteran affair secretary david shulkin":"davidShulkin",\
+"fossil fuel industry":"energy",\
 "fossil fuel lobbyist":"oil",\
+"fox business host lou dobbs":"louDobbs",\
 "fox business network":"foxnews",\
 "fox news host laura ingraham":"lauraIngraham",\
 "fray democrat":"democrat",\
+"french president emmanuel macron":"emmanuelMacron",\
 "french president emmanuel macron campaign":"emmanuelMacron",\
+"front national party":"southAfrica",\
+"fuel company":"energy",\
 "fugh":"justinaFugh",\
 "fulton armstrong":"fultonArmstrong",\
 "fundraising term":"fundraising",\
@@ -523,6 +598,7 @@ def get_ecs():
 "gangneung":"southKorea",\
 "garaufis":"nicholasGaraufis",\
 "gary cohn":"garyCohn",\
+"gas grenade":"protests",\
 "gate":"rickGates",\
 "gavin newsom":"gavinNewsom",\
 "gawker":"media",\
@@ -534,6 +610,8 @@ def get_ecs():
 "george w bush administration":"georgeWBush",\
 "georgiaborn stacey evans":"staceyEvans",\
 "georgian":"georgia",\
+"german chancellor angela merkel":"angelaMerkel",\
+"gharapuri isle":"india",\
 "giant amazon":"amazon",\
 "gibson":"leslieGibson",\
 "gillibrand":"kirstenGillibrand",\
@@ -562,10 +640,15 @@ def get_ecs():
 "gru hacker":"russianIntelligence",\
 "gsr":"globalScienceResearch",\
 "gun debate":"guns",\
+"gun homicide":"guns",\
 "gun law":"guns",\
+"gun murder":"gun",\
+"gun safety":"guns",\
 "gun violence":"guns",\
 "gunman":"guns",\
 "guterres":"antonioGuterres",\
+"gutierrez":"luisGutierrez",\
+"gyeongpo beach":"northKorea",\
 "haass":"richardHaass",\
 "hack":"cybersecurity",\
 "hagan":"christinaHagan",\
@@ -576,6 +659,7 @@ def get_ecs():
 "hank johnson":"hankJohnson",\
 "hank johnson":"hankJohnson",\
 "hannity":"seanHannity",\
+"harassment case":"harassment",\
 "harassment claim":"harassment",\
 "harper":"malayahHarper",\
 "harris":"kamalaHarris",\
@@ -584,6 +668,7 @@ def get_ecs():
 "haspel":"ginaHaspel",\
 "haspels critic":"ginaHaspel",\
 "hawaii state rep beth fukumoto":"bethFukumoto",\
+"hawley":"joshHawley",\
 "health":"healthcare",\
 "health care":"healthcare",\
 "health care issue":"healthcare",\
@@ -600,12 +685,17 @@ def get_ecs():
 "hillary":"hillaryClinton",\
 "hillary clinton":"hillaryClinton",\
 "hogg":"davidHogg",\
+"homeland security secretary kirstjen nielsen":"kirstjenNielsen",\
+"homicide rate":"homicide",\
+"homosexuality":"gayRights",\
 "hope hick":"hopeHicks",\
 "horowitz":"michaelHorowitz",\
 "hospital executive":"healthcare",\
 "hostage":"terrorism",\
+"hostage situation":"hostage",\
 "house candidate":"election",\
 "house democrat":"democrat",\
+"house ethic committee":"ethic",\
 "house freedomcaucus":"extremeRight",\
 "house intelligence committee":"houseIntelligenceCommittee",\
 "house judiciary committee chairman bob goodlatte":"bobGoodlatte",\
@@ -623,13 +713,20 @@ def get_ecs():
 "ice":"immigrationAndCustomsEnforcement",\
 "ice office":"immigrationAndCustomsEnforcement",\
 "ice office":"immigrationAndCustomsEnforcement",\
+"ileana roslehtinen":"ileanaRoslehtinen",\
 "illinois house seat":"election",\
+"immigration agenda":"immigration",\
 "immigration authority":"immigration",\
+"immigration judge":"immigration",\
 "immigration law":"immigration",\
+"immigration law more":"immigration",\
+"immigration plan":"immigration",\
 "immigration policy":"immigration",\
+"immigration review":"immigration",\
 "immigration service":"immigration",\
 "immigrationandcustomsenforcementofficers":"immigration",\
 "improvisedExplosiveDevice attack":"improvisedExplosiveDevice",\
+"industry group":"industry",\
 "infrastructure plan":"infrastructure",\
 "infrastructure policy":"infrastructure",\
 "infrastructure reform":"infrastructure",\
@@ -655,6 +752,8 @@ def get_ecs():
 "intelligence information":"intelligence",\
 "intelligence officer":"intelligence",\
 "intelligence service":"intelligence",\
+"interest koch brother":"kochBrothers",\
+"international woman day":"womensRights",\
 "investigation compliance":"investigation",\
 "investment income":"investment",\
 "iraq legacy":"iraqWar",\
@@ -662,6 +761,8 @@ def get_ecs():
 "isi":"islamicState",\
 "isi fighter":"islamicState",\
 "isi operation":"islamicState",\
+"israeli confiscation":"israel",\
+"israeli soldier":"soldier",\
 "istandwithlaura":"lauraIngraham",\
 "ivanka":"ivankaTrump",\
 "ivanka trump":"ivankaTrump",\
@@ -682,21 +783,28 @@ def get_ecs():
 "jeb bush":"jebBush",\
 "jeb hensarling":"jebHensarling",\
 "jeff bezos":"jeffBezos",\
+"jeff flake":"jeffFlake",\
 "jeff session":"jeffSessions",\
 "jeff zucker":"jeffZucker",\
 "jeffbezos":"jeffBezos",\
 "jefferson":"thomasJefferson",\
+"jenkins":"evanJenkins",\
 "jennie willoughby":"jennieWilloughby",\
 "jennie willoughby willoughby":"jennieWilloughby",\
 "jennings":"jScottJennings",\
 "jerome corsi":"jeromeCorsi",\
 "jerry brown":"jerryBrown",\
+"jessica denson":"jessicaDenson",\
+"jihadist attack":"terrorism",\
+"jill mccabe":"andrewMccabe",\
 "jim inhofe":"jamesInhofe",\
 "jim renacci":"jimRenacci",\
 "jinping":"xiJinPing",\
 "job plan":"jobs",\
+"jobar":"syria",\
 "joe arpaio":"joeArpaio",\
 "joe biden":"joeBiden",\
+"joe donnelly":"joeDonnelly",\
 "joe morelle":"joeMorelle",\
 "joel wallenstrom":"joelWallenstrom",\
 "john bolton":"johnBolton",\
@@ -705,6 +813,7 @@ def get_ecs():
 "john dowd":"johnDowd",\
 "john f kelly":"johnKelly",\
 "john goodman":"roseanneBarr",\
+"john huber":"johnHuber",\
 "john kasich":"johnKasich",\
 "john kasich short":"johnKasich",\
 "john kasichs bid":"johnKasich",\
@@ -718,6 +827,7 @@ def get_ecs():
 "jon tester":"jonTester",\
 "jordan":"jimJordan",\
 "jose bustani":"joseBustani",\
+"josh hawley":"joshHawley",\
 "judd":"brandonJudd",\
 "judge josann reynolds":"josannReynolds",\
 "judge reinhardt":"stephenReinhardt",\
@@ -741,6 +851,7 @@ def get_ecs():
 "justice overhaul":"justiceDepartment",\
 "justice reform":"justiceDepartment",\
 "justin fairfax":"justinFairfax",\
+"justin muzinich":"justinMuzinich",\
 "justin trudeau":"justinTrudeau",\
 "kain":"annaKain",\
 "kaine":"timKaine",\
@@ -752,6 +863,7 @@ def get_ecs():
 "kasichs endorsement":"johnKasich",\
 "kasichs team arent":"johnKasich",\
 "kay cole james":"kayKoleJames",\
+"kazakhstan afpgetty":"kazakhstan",\
 "keisha lance bottom":"keishaLanceBottoms",\
 "kelly":"johnKelly",\
 "kelly mazeski":"kellyMazeski",\
@@ -770,6 +882,8 @@ def get_ecs():
 "kim jong un":"kimJongUn",\
 "kim jongun":"kimJongUn",\
 "kim talk":"kimJongUn",\
+"kim yong chol":"northKorea",\
+"kim young chol":"northKorea",\
 "kims":"kimJongUn",\
 "kirill dmitriev":"kirillDmitriev",\
 "kirsten gillibrand":"kirstenGillibrand",\
@@ -778,13 +892,16 @@ def get_ecs():
 "koch brother":"kochBrothers",\
 "konstantin kilimnik":"konstantinKilimnik",\
 "korea":"northKorea",\
+"kremlin pool photo":"russia",\
 "kremlin thursday":"russia",\
 "krikorian":"markKrikorian",\
+"krupp mannesmann steel factory":"steel",\
 "kudlow":"larryKudlow",\
 "kushner":"jaredKushner",\
 "kushner cos":"jaredKushner",\
 "kushners":"jaredKushner",\
 "kushners statement":"jaredKushner",\
+"kusnirova":"martinaKusnirova",\
 "ladavia drane":"ladaviaDrane",\
 "lady melania trump":"melaniaTrump",\
 "laguna atascosa national wildlife refuge":"wildlife",\
@@ -815,7 +932,11 @@ def get_ecs():
 "lewandowski":"coreyLewandowski",\
 "lewis":"stephenLewis",\
 "lgbt right group minneapolis fbi agent":"lgbt",\
+"lgbtq community":"gayRights",\
+"lianghui":"china",\
+"libertarian party":"libertarian",\
 "liddell":"christopherLiddell",\
+"lieutenant colonel arnaud beltrame":"terrorism",\
 "line spy":"espionage",\
 "lisa page":"lisaPage",\
 "litman":"amandaLitman",\
@@ -826,6 +947,7 @@ def get_ecs():
 "loudobbs":"louDobbs",\
 "loures":"luizLoures",\
 "lowenergy jeb":"jebBush",\
+"luis gutierrez":"luisGutierrez",\
 "luis miranda":"cybersecurity",\
 "luiz loures":"luizLoures",\
 "luiz loures":"luizLoures",\
@@ -854,22 +976,28 @@ def get_ecs():
 "manigault newman":"omarosaManigault",\
 "manigaultnewman":"omarosaManigault",\
 "mann case":"josephMann",\
+"manzanar internment camp":"manzanarInternmentCamp",\
+"marco":"marcoRubio",\
 "marco rubio":"marcoRubio",\
 "margo oge":"environmentalProtectionAgency",\
 "maria zakharova":"russia",\
 "marine corp veteran grant goodrich":"grantGoodrich",\
 "marjory stoneman douglas high school":"parkland",\
+"marjory stoneman douglas high school student":"parkland",\
 "marjory stoneman douglas high school student david hogg":"davidHogg",\
 "mark penn":"markPenn",\
 "mark zuckerberg":"markZuckerberg",\
 "market rate":"economy",\
 "markos moulitsas":"markosMoulitsas",\
 "martina brostrom":"martinaBrostrom",\
+"martina kusnirova":"martinaKusnirova",\
 "mary barzee flores":"maryBarzeeFlores",\
 "mary taylor":"maryTaylor",\
 "mary taylor short":"maryTaylor",\
 "marytayloroh":"maryTaylor",\
 "mason":"crystalMason",\
+"mass demonstration":"protests",\
+"massachusetts sen elizabeth warren":"elizabethWarren",\
 "matt borges":"mattBorges",\
 "matthew mcgregor":"matthewMcgregor",\
 "mattis":"jamesMattis",\
@@ -894,7 +1022,9 @@ def get_ecs():
 "medicareforall bill":"medicareforall",\
 "meet dr ronny":"ronnyJackson",\
 "melissa schwartz":"andrewMccabe",\
+"merkel":"angelaMerkel",\
 "messitte":"peterMessitte",\
+"metal tariff":"tariff",\
 "metoo phenomenon":"metoo",\
 "metoo story":"metoo",\
 "mexican president enrique pena nieto":"enriquePenaNieto",\
@@ -910,6 +1040,7 @@ def get_ecs():
 "michaelavenatti":"michaelAvenatti",\
 "michel sidibe":"michelSidibe",\
 "michigan democratic party dinner":"campaign",\
+"mick mulvaney":"mickMulvaney",\
 "microsoft ceo steve ballmer":"steveBalmer",\
 "middle east":"middleEast",\
 "midterm election":"election",\
@@ -924,8 +1055,10 @@ def get_ecs():
 "mileage target":"mpg",\
 "minnesota republican":"republican",\
 "minority leader stacey abrams":"staceyAbrams",\
+"mitt romney":"mittRomney",\
 "mitt romneys":"mittRomney",\
 "mlk assassination more":"mlk",\
+"mnuchin":"stevenMnuchin",\
 "model united nation team":"unitedNations",\
 "mooch":"anthonyScaramucci",\
 "mooch fundraiser":"anthonyScaramucci",\
@@ -935,6 +1068,7 @@ def get_ecs():
 "more daca deal":"daca",\
 "morelle":"joeMorelle",\
 "morning tweet":"tweet",\
+"morrisey":"patrickMorrisey",\
 "morrison":"samuelMorrison",\
 "moser":"lauraMoser",\
 "mountz":"brittanieMountz",\
@@ -952,6 +1086,7 @@ def get_ecs():
 "mr mueller":"robertMueller",\
 "mr muellers investigator":"robertMueller",\
 "mr putin":"vladimirPutin",\
+"mr stone":"rogerStone",\
 "mr trump":"donaldTrump",\
 "mrs trump":"melaniaTrump",\
 "ms mason":"crystalMason",\
@@ -962,7 +1097,11 @@ def get_ecs():
 "muellers probe":"robertMueller",\
 "muellers team":"robertMueller",\
 "multiple california democrat":"democrat",\
+"mulvaney":"mickMulvaney",\
 "mumbai":"india",\
+"muzinich":"justinMuzinich",\
+"nafta deal":"nafta",\
+"nagaur district":"india",\
 "nancy pelosi":"nancyPelosi",\
 "natalia popova":"nataliaPopova",\
 "nathan click":"gavinNewsom",\
@@ -973,6 +1112,7 @@ def get_ecs():
 "national security type":"nationalSecurity",\
 "nationalsecurityadvisor john bolton":"johnBolton",\
 "nationalsecurityadvisor michael flynn":"michaelFlynn",\
+"nato member":"nato",\
 "navarro":"peterNavarro",\
 "navy":"USMilitary",\
 "need wall":"borderwall",\
@@ -1010,6 +1150,8 @@ def get_ecs():
 "north korea":"northKorea",\
 "north korean":"northKorea",\
 "north koreas":"northKorea",\
+"northern border":"immigration",\
+"november election":"election",\
 "november midterm":"election",\
 "nra":"nationalRifleAssociation",\
 "nrcc spokesperson jesse hunt":"nrcc",\
@@ -1026,6 +1168,7 @@ def get_ecs():
 "obama enters":"barackObama",\
 "obama white house":"obamaAdministration",\
 "obama year":"barackObama",\
+"obamas approval":"opinionPolls",\
 "obergefell":"obergefellVHodges",\
 "obergefell v hodges":"obergefellVHodges",\
 "obstruction case":"obstruction",\
@@ -1038,6 +1181,7 @@ def get_ecs():
 "ohioan jim jordan":"jimJordan",\
 "oig":"officeOfInspectorGeneral",\
 "oil field":"oil",\
+"oklahoma energy company":"energy",\
 "oleg deripaska":"olegDeripaska",\
 "oligarch oleg deripaska":"olegDeripaska",\
 "olson":"tedOlson",\
@@ -1045,6 +1189,7 @@ def get_ecs():
 "omarosa manigaultnewman":"omarosaManigault",\
 "omnibus spending bill":"economy",\
 "opcw chief":"opcw",\
+"ore":"economy",\
 "ortega":"rosaMariaOrtega",\
 "orville fleming":"orvilleFleming",\
 "orville fleming sits":"orvilleFleming",\
@@ -1061,6 +1206,8 @@ def get_ecs():
 "parkland survivor":"parkland",\
 "parkland survivor david hogg":"davidHogg",\
 "parkland survivor david hogg call":"davidHogg",\
+"party central committee":"china",\
+"patrick morrisey":"patrickMorrisey",\
 "paul manafort":"paulManafort",\
 "paul renfrow":"paulRenfrow",\
 "pelosi":"nancyPelosi",\
@@ -1075,14 +1222,24 @@ def get_ecs():
 "pete session":"peteSessions",\
 "peter navarro":"peterNavarro",\
 "phil bredesen":"philBredesen",\
+"phoenix police":"lawEnforcement",\
+"playmate":"womensRights",\
 "pm justin trudeau":"justinTrudeau",\
 "po":"USPostalService",\
+"pocahontas":"insult",\
 "police investigator hand":"investigation",\
+"police officer":"lawEnforcement",\
+"police personnel":"lawEnforcement",\
+"policeman arnaud beltrame":"terrorism",\
 "policy adviser stephen miller":"stephenMiller",\
+"policy attitude":"lawEnforcement",\
 "polk county democrat":"democrat",\
 "pollack":"barryPollack",\
+"polling station":"election",\
+"pollster":"poll",\
 "pollster bill mcinturff":"opinionPolls",\
 "pompeo":"mikePompeo",\
+"pope francis":"popeFrancis",\
 "popova deputydirects tikhonovas innopraktika foundation":"nataliaPopova",\
 "post office":"USPostalService",\
 "post office scam":"USPostalService",\
@@ -1092,14 +1249,19 @@ def get_ecs():
 "president":"donaldTrump",\
 "president barack obama":"barackObama",\
 "president bashar":"basharAlAssad",\
+"president bill clinton":"billClinton",\
 "president carter":"jimmyCarter",\
 "president clinton":"billClinton",\
+"president cyril ramaphosa":"cyrilRamaphosa",\
 "president donald trump":"donaldTrump",\
+"president donald trump ability":"donaldTrump",\
 "president donald trump shakeup":"donaldTrump",\
 "president donald trump thursday":"donaldTrump",\
 "president george hw":"georgeHWBush",\
 "president george w bush":"georgeWBush",\
 "president gerald ford":"geraldFord",\
+"president jacob zuma":"jacobZuma",\
+"president marine le pen":"marineLePen",\
 "president meant":"donaldTrump",\
 "president obama":"barackObama",\
 "president putin":"vladimirPutin",\
@@ -1109,20 +1271,30 @@ def get_ecs():
 "president trump":"donaldTrump",\
 "president trump donald john trumpkushner":"jaredKushner",\
 "president trump donald john trumpnew york magazine cover":"donaldTrump",\
+"president trump donald john trumptrump":"donaldTrump",\
 "president victor yanukovych":"victorYanukovych",\
 "president vladimir putin":"vladimirPutin",\
 "president xi":"xiJinPing",\
 "president xi jinping":"xiJinPing",\
 "press secretary sarah huckabee sander":"sarahHuckabeeSanders",\
+"press secretary sarah sander":"sarahHuckabeeSanders",\
 "priebus":"reincePriebus",\
 "prime minister yulia tymoshenko":"yuliaTymoshenko",\
 "prince":"erikPrince",\
 "priyanka mantha":"staceyAbrams",\
+"proliferation":"war",\
 "protection agency administrator scott pruitt":"scottPruitt",\
+"protest":"protests",\
+"protest sign":"protests",\
+"protester form triangle":"protests",\
+"protester form triangle":"protests",\
+"providing abortion":"abortion",\
 "pruitt":"scottPruitt",\
+"pruitts":"scottPruitt",\
 "public affair research poll":"opinionPolls",\
 "pulikovsky":"konstantinPulikovsky",\
 "putin":"vladimirPutin",\
+"putin aide":"vladimirPutin",\
 "putin comment":"vladimirPutin",\
 "putin daughter":"vladimirPutin",\
 "pyeongchang winter olympics":"southKorea",\
@@ -1141,8 +1313,10 @@ def get_ecs():
 "racketeering case":"racketeering",\
 "raffel":"joshRaffel",\
 "raffi krikorian":"raffiKrikorian",\
+"rajasthan":"india",\
 "rakhine state":"myanmar",\
 "rand paul":"randPaul",\
+"rasmussen":"opinionPolls",\
 "rauner":"bruceRauner",\
 "ravel":"USElectionCommission",\
 "ravel point":"USElectionCommission",\
@@ -1176,9 +1350,12 @@ def get_ecs():
 "rep john lewis":"johnLewis",\
 "rep maloney":"carolynMaloney",\
 "rep marcia fudge":"marciaFudge",\
+"rep trey gowdy":"treyGowdy",\
+"report epa":"environmentalProtectionAgency",\
 "report jeb bush":"jebBush",\
 "reps marcia fudge":"marciaFudge",\
 "reps robert goodlatte":"bobGoodlatte",\
+"republican attorney general josh hawley":"joshHawley",\
 "republican candidate":"republican",\
 "republican john culberson":"johnCulberson",\
 "republican larry hogan":"larryHogan",\
@@ -1186,9 +1363,11 @@ def get_ecs():
 "republican party platform":"republican",\
 "republican politics":"republican",\
 "republican pollster bill mcinturff":"opinionPolls",\
+"republican primary season":"election",\
 "republican will hurd":"willHurd",\
 "republicancontrolled":"republican",\
 "republicanled house intelligence committee":"houseIntelligenceCommittee",\
+"rex jones":"alexJones",\
 "rex tillerson":"rexTillerson",\
 "reynolds":"josannReynolds",\
 "ricci":"andrewRicci",\
@@ -1198,15 +1377,21 @@ def get_ecs():
 "richard ojeda":"richardOjeda",\
 "rick gate":"rickGates",\
 "rick scott":"rickScott",\
+"rick wilson":"rickWilson",\
+"rifle":"gun",\
 "rippey gibney":"rubyRippeyGibney",\
+"riverside county sheriff":"lawEnforcement",\
 "rnc":"republicanNationalConvention",\
 "rob frost":"robFrost",\
 "robby mook":"robbyMook",\
 "robert hutchings":"robertHutchings",\
 "robert redfield jr":"robertRedfieldJr",\
 "robert wilkie":"robertWilkie",\
+"rod rosenstein":"rodRosenstein",\
 "rodman":"dennisRodman",\
 "roger stone":"rogerStone",\
+"romney":"mittRomney",\
+"ron wyden":"ronWyden",\
 "ronaldKessler":"ronaldKessler",\
 "ronny jackson":"ronnyJackson",\
 "roof":"dylannRoof",\
@@ -1215,20 +1400,24 @@ def get_ecs():
 "roseanne barr":"roseanneBarr",\
 "roseanne reply":"roseanneBarr",\
 "rosenstein":"rodRosenstein",\
+"roslehtinen":"ileanaRoslehtinen",\
 "ruben":"rubenKihuen",\
 "rubio":"marcoRubio",\
 "ruby rippey gibney":"rubyRippeyGibney",\
 "ruby rippey gibney":"rubyRippeyGibney",\
 "rumsfelds":"donaldRumsfeld",\
 "rushern l baker iii":"rushernBaker",\
+"russia ambassador":"ambassador",\
 "russia direct investment fund":"rdif",\
 "russia policy":"russia",\
 "russia response":"russia",\
 "russian":"russia",\
 "russian ambassador sergey kislyak":"sergeyKislyak",\
 "russian double agent living":"espionage",\
+"russian emergency minister vladimir puchkov":"russia",\
 "russian foreign ministry":"russia",\
 "russian president vladimir putin":"vladimirPutin",\
+"russian spy":"espionage",\
 "russiandirectinvestmentfund":"rdif",\
 "ruth bader ginsburg":"ruthBaderGinsburg",\
 "ryabkov":"sergeiRyabkov",\
@@ -1251,6 +1440,7 @@ def get_ecs():
 "scaramucci":"anthonyScaramucci",\
 "scaramucci event":"anthonyScaramucci",\
 "scavino":"danScavino",\
+"schneiderman":"ericSchneiderman",\
 "school administration":"education",\
 "school official":"education",\
 "school resource officer":"education",\
@@ -1266,11 +1456,13 @@ def get_ecs():
 "scott pruitt":"scottPruitt",\
 "scott walker":"scottWalker",\
 "sean hannity":"seanHannity",\
+"second war power act":"government",\
 "secondAmendment":"secondamendment",\
 "secondamendment right":"secondamendment",\
 "secondamendment will never be repealed":"secondamendment",\
 "secretarygeneral":"unitedNations",\
 "secure technology":"cybersecurity",\
+"security council":"unitedNations",\
 "security official":"intelligence",\
 "security world":"cybersecurity",\
 "sekulow":"jaySekulow",\
@@ -1284,6 +1476,7 @@ def get_ecs():
 "sen doug jones":"dougJones",\
 "sen heidi heitkamp":"heidiHeitkamp",\
 "sen james inhofe":"jamesInhofe",\
+"sen joe donnelly":"joeDonnelly",\
 "sen john mccain":"johnMccain",\
 "sen jon tester":"jonTester",\
 "sen lindsey graham":"lindseyGraham",\
@@ -1295,6 +1488,7 @@ def get_ecs():
 "sen thom tillis":"thomTillis",\
 "sen tim kaine":"timKaine",\
 "senate armed service committee":"USMilitary",\
+"senate campaign arm":"campaign",\
 "senate democratic leader chuck schumer":"chuckSchumer",\
 "senate judiciary chairman chuck grassley":"chuckGrassley",\
 "senate majority leader mitch mcconnell":"mitchMcconnell",\
@@ -1316,8 +1510,12 @@ def get_ecs():
 "shipping cost":"USPostalService",\
 "shulkin":"davidShulkin",\
 "shulkins":"davidShulkin",\
+"shulkins departure":"davidShulkin",\
 "shulkins wife":"davidShulkin",\
+"siberia":"russia",\
 "sidibe":"michelSidibe",\
+"sikh golden temple":"india",\
+"silvio berlusconi":"silvioBerlusconi",\
 "sinclair":"sinclairBroadcastGroup",\
 "sinclair broadcast group":"sinclairBroadcastGroup",\
 "sinclair vice president":"sinclairBroadcastGroup",\
@@ -1334,11 +1532,13 @@ def get_ecs():
 "sorensen":"davidSorensen",\
 "sotomayor":"soniaSotomayor",\
 "south korea":"southKorea",\
+"south korea afpgetty":"southKorea",\
 "south koreas":"southKorea",\
 "south sudan":"africa",\
 "southern borderwall":"borderwall",\
 "soviet union":"russia",\
 "special counsel robert mueller":"robertMueller",\
+"spy poisoning row":"espionage",\
 "spy sergei skripal":"sergeiSkripal",\
 "sri lanka":"asia",\
 "stacey abrams":"staceyAbrams",\
@@ -1347,6 +1547,7 @@ def get_ecs():
 "staff secretary rob porter":"robPorter",\
 "stamos":"alexStamos",\
 "star stormy daniel":"stormyDaniels",\
+"state attorney general eric schneidermann":"ericSchneiderman",\
 "state colin powell":"colinPowell",\
 "state department spokesperson heather nauert":"stateDepartment",\
 "state department spokeswoman heather nauert":"stateDepartment",\
@@ -1371,15 +1572,19 @@ def get_ecs():
 "steve scalise":"steveScalise",\
 "steven cheung":"stevenCheung",\
 "steven hart":"stephenVickiHart",\
+"steven mnuchin":"stevenMnuchin",\
 "steyer":"tomSteyer",\
 "stormy daniel":"stormyDaniels",\
+"stormy daniel lawsuit trump":"stormyDaniels",\
 "stormy daniel lawyer":"stormyDaniels",\
 "stormy daniel story":"stormyDaniels",\
 "strang":"stephenStrang",\
 "strategic communication laboratory":"cambridgeAnalytica",\
+"strategist steve bannon":"steveBannon",\
 "strzok":"peterStrzok",\
 "stuart":"lyndseyStuart",\
 "stubenrauch":"mikeDewine",\
+"student survivor":"parkland",\
 "subscribe president donald trump":"donaldTrump",\
 "summer new york primary":"election",\
 "summer zervos":"summerZervos",\
@@ -1406,6 +1611,7 @@ def get_ecs():
 "swing district":"campaign",\
 "syngentas fine":"syngenta",\
 "syria yesterday":"syria",\
+"taj mahal":"india",\
 "tariff decision":"tariff",\
 "tarrant county jail":"lawEnforcement",\
 "tax bill":"tax",\
@@ -1413,6 +1619,7 @@ def get_ecs():
 "tax credit":"tax",\
 "tax cut cut cut plan":"tax",\
 "tax dollar":"tax",\
+"tax hike":"tax",\
 "tax increase":"tax",\
 "tax jurisdiction":"tax",\
 "tax preparer":"tax",\
@@ -1428,9 +1635,11 @@ def get_ecs():
 "tcowfla4hwhxy laura ingraham":"lauraIngraham",\
 "tea party":"teaParty",\
 "teabagger":"teaparty",\
+"teacher protest":"education",\
 "teacher salary":"education",\
 "ted nugent":"tedNugent",\
 "tell qanon":"qanon",\
+"tent city protest":"protests",\
 "terror group":"terrorism",\
 "terry mcauliffe":"terryMcauliffe",\
 "tester":"jonTester",\
@@ -1456,6 +1665,7 @@ def get_ecs():
 "trauschke":"robertTrauschke",\
 "travel spending":"controversy",\
 "treasury secretary":"USTreasury",\
+"treasury secretary steven mnuchin":"stevenMnuchin",\
 "trend poll":"poll",\
 "trey gowdy":"treyGowdy",\
 "troop":"USMilitary",\
@@ -1464,6 +1674,7 @@ def get_ecs():
 "trump":"donaldTrump",\
 "trump administration official":"trumpAdministration",\
 "trump adviser":"trumpAdviser",\
+"trump adviser steve bannon":"steveBannon",\
 "trump aide":"trumpAide",\
 "trump attempt":"donaldTrump",\
 "trump attorney ty cobb":"tyCobb",\
@@ -1492,6 +1703,7 @@ def get_ecs():
 "trumpputin revelation":"russia",\
 "tucker carlson":"tuckerCarlson",\
 "turkey justiceAndDevelopmentParty":"extremeRight",\
+"turnout":"election",\
 "tweet":"twitter",\
 "tweet friday morning":"tweet",\
 "tweet read":"tweet",\
@@ -1505,6 +1717,7 @@ def get_ecs():
 "twitter post":"tweet",\
 "twitter profile":"tweet",\
 "twitter thursday":"tweet",\
+"twitter wednesday":"tweet",\
 "ty cobb":"tyCobb",\
 "tymoshenko":"yuliaTymoshenko",\
 "u air strike":"USMilitary",\
@@ -1520,13 +1733,17 @@ def get_ecs():
 "u official":"USOfficial",\
 "u politics":"USPolitics",\
 "u postal service":"USPostalService",\
+"u president":"donaldTrump",\
 "u president donald trump":"donaldTrump",\
+"u soldier":"USMilitary",\
 "u supreme court":"USSupremeCourt",\
 "u troop":"USTroops",\
+"uk russia":"unitedKingdom",\
 "un ambassador":"unitedNations",\
 "un official":"unitedNations",\
 "un secretarygeneral":"UNSecretaryGeneral",\
 "un system":"unitedNations",\
+"undersea cable":"underseaCable",\
 "underwood":"laurenUnderwood",\
 "union chief brandon judd":"brandonJudd",\
 "united nation":"unitedNations",\
@@ -1534,12 +1751,14 @@ def get_ecs():
 "united state election":"election",\
 "united state postal service":"USPostalService",\
 "united state sergei kislyak":"sergeyKislyak",\
+"urban development secretary ben carson":"benCarson",\
 "us ally":"USAlly",\
 "us assistance":"foreignAid",\
 "us attorney john huber":"johnHuber",\
 "us attorney john w huber speaks":"johnHuber",\
 "us border":"borderwall",\
 "us campaign":"campaign",\
+"us census":"USCensus",\
 "us consulate general":"USConsulate",\
 "us consumer":"consumer",\
 "us court":"USCourt",\
@@ -1549,6 +1768,7 @@ def get_ecs():
 "us intelligence agency":"intelligence",\
 "us job":"jobs",\
 "us post office":"USPostalService",\
+"us president donald trump":"donaldTrump",\
 "us rep elizabeth esty":"elizabethEsty",\
 "us sen elizabeth warren":"elizabethWarren",\
 "us troop":"USMilitary",\
@@ -1580,6 +1800,8 @@ def get_ecs():
 "virginia sen mark warner":"markWarner",\
 "vitiello":"ronaldVitiello",\
 "vladimir putin":"vladimirPutin",\
+"voting booth":"election",\
+"voting right act":"votingrightsact",\
 "walker":"scottWalker",\
 "wall street journal profile devin nunes":"devinNunes",\
 "wallenstrom":"joelWallenstrom",\
@@ -1587,16 +1809,20 @@ def get_ecs():
 "warner":"markWarner",\
 "warren":"elizabethWarren",\
 "washington living arrangement":"controversy",\
+"way president donald trump talk":"donaldTrump",\
 "weaver":"johnWeaver",\
 "webb":"danWebb",\
 "week ingraham":"controversy",\
+"weissmann":"andrewWeissmann",\
 "west wing structure":"trumpAdministration",\
 "westermann":"christianWestermann",\
+"white house bid":"election",\
 "white house chiefofstaff":"johnKelly",\
 "white house chiefofstaff john f kelly":"johnKelly",\
 "white house chiefofstaff john kelly":"johnKelly",\
 "white house communication director":"sarahHuckabeeSanders",\
 "white house hopeful":"election",\
+"white house meeting":"trumpAdministration",\
 "white house press secretary sarah huckabee sander":"sarahHuckabeeSanders",\
 "white house press secretary sarah sander":"sarahHuckabeeSanders",\
 "white house spokesperson lindsay walter":"lindsayWalter",\
@@ -1607,10 +1833,14 @@ def get_ecs():
 "william rehnquist":"wiliamRehnquist",\
 "willoughby":"jennieWilloughby",\
 "woman equality":"womensRights",\
+"woman right":"womensRights",\
 "work requirement":"supplmentalNutritionAssistanceProgram",\
 "workforce":"jobs",\
+"world war ii":"ww2",\
+"world water day":"worldWaterDay",\
 "worldwide cyberattack":"cybersecurity",\
 "wray":"christopherWray",\
+"wyden":"ronWyden",\
 "wylie":"christopherWylie",\
 "wyoming rep liz cheney":"lizCheney",\
 "xi":"xiJinPing",\
@@ -1618,9 +1848,14 @@ def get_ecs():
 "xiyue wang":"xiYueWang",\
 "yekaterina tikhonova":"vladimirPutin",\
 "yekaterinburg":"russia",\
+"zamalka town":"syria",\
 "zero republican":"republican",\
 "zucker":"jeffZucker",\
+"zuma":"jacobZuma",\
 "zwaan":"alexVanDerZwaan",\
+"bratislava":"slovakia",\
+
+
 
 
 

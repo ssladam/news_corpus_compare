@@ -35,9 +35,13 @@ continue_exec = True #Do not change
 num_term_clusters = 7 #how many clusters do you want for terms?
 num_concept_clusters = 13 #how many clusters for concepts?
 num_terms_in_cluster = 40 #how many of the top-terms within each cluster do you want to report?
-corpus_path = "C:/Users/adams/OneDrive/Documents/Northwestern/453 - Text/Scraper/" #location where corpus YAML is saved
-output_path = "C:/Users/adams/OneDrive/Documents/Northwestern/453 - Text/output/" #location you will output all files
-script_path = "C:/Users/adams/OneDrive/Documents/Northwestern/453 - Text/" #location where you have saved the collection of python files
+# corpus_path = "C:/Users/adams/OneDrive/Documents/Northwestern/453 - Text/Scraper/" #location where corpus YAML is saved
+# output_path = "C:/Users/adams/OneDrive/Documents/Northwestern/453 - Text/output/" #location you will output all files
+# script_path = "C:/Users/adams/OneDrive/Documents/Northwestern/453 - Text/" #location where you have saved the collection of python files
+
+corpus_path = "C:/temp/NU/453/news_compare/article_input/" #location where corpus YAML is saved
+output_path = "C:/temp/NU/453/news_compare/output/" #location you will output all files
+script_path = "C:/temp/NU/453/news_compare/" #location where you have saved the collection of python files
 #========GLOBAL VARIABLES YOU CAN CUSTOMIZE TO TWEAK BEHAVIOR============
 
 #Did you forget to put the backslash at the end of your input folders?
@@ -192,7 +196,7 @@ def cluster_cutoff_selection(tmatrix, title='unknown', max_cluster=20, source=''
     ax.legend(numpoints=1,  loc=0)
     plt.title(source + ' ' + title + ' Cluster Cut-off Selection')
     #plt.show()
-    plt.savefig(output_path + source + '_' + title + '_cluster_cutoff.png', bbox_extra_artists=(lgd,), bbox_inches='tight', dpi=72)
+    plt.savefig(output_path + source + '_' + title + '_cluster_cutoff.png', bbox_extra_artists=(lgd,), bbox_inches='tight', dpi=200)
     plt.close('all') #even though we don't show the plot, you need to explicitly close to free the memory
     
 #======================= Build the matrices to establish clusters=====================
@@ -313,7 +317,7 @@ def magic_cluster(input_matrix, output_path, out_name, num_clusters=5, num_terms
     plt.title('DSI K-Means cluster assignment: ' + out_name)
     plt.margins(0.05, 0.1)
     #plt.show() #show the plot
-    plt.savefig(output_path + source + out_name + '_kmeans.' + seed_name + '.png', bbox_extra_artists=(lgd,), bbox_inches='tight', dpi=72)
+    plt.savefig(output_path + source + out_name + '_kmeans.' + seed_name + '.png', bbox_extra_artists=(lgd,), bbox_inches='tight', dpi=200)
     plt.close('all') #even though we don't show the plot, you need to explicitly close to free the memory
     
     #the 2D map is done, now prepare a dendrogram to visualize how clustering splits
@@ -335,7 +339,7 @@ def magic_cluster(input_matrix, output_path, out_name, num_clusters=5, num_terms
     #   Therefore, don't write out an "A", and "B" version of the dendrogram
     #   Todo: udpate dendrogram to better reflect the KMeans 2D map
     #   Recommend you start here: https://joernhees.de/blog/2015/08/26/scipy-hierarchical-clustering-and-dendrogram-tutorial/
-    plt.savefig(output_path + source + '_' + out_name + '_dendrogram.png', bbox_inches='tight', dpi=72)
+    plt.savefig(output_path + source + '_' + out_name + '_dendrogram.png', bbox_inches='tight', dpi=200)
     plt.close('all') #clear plot from memory
     
     return tfidf_matrix
@@ -532,6 +536,20 @@ def make_magic_happen(corpus_path, output_path, phrase_dict, ec_dict, filter_wor
         #     corpus_term_counts[i].to_csv(output_path + source + '_' + file_list[i] + '.csv')
         # del i
         
+        #write out article summary for DSI members...
+        summary_df = pd.DataFrame({'DSI': range(0, len(corpus_input[source]['articles']))})
+        summary_df['DSI'] = 'DSI-' + summary_df['DSI'].astype(str)
+        summary_df = summary_df.assign(link = corpus_input[source]['link_set'])
+        title_list = []
+        link_list = []
+        for article in corpus_input[source]['articles']:
+            title_list.append(article['title'])
+            link_list.append(article['link'])
+        summary_df = summary_df.assign(link = link_list)
+        summary_df = summary_df.assign(title = title_list)
+        summary_df.to_csv(output_path + source + '_summary.csv')
+        
+        
         #perform clustering....
         term_tfmatrix = pd.DataFrame()
         #term_tfmatrix = magic_cluster(masterdf_terms, output_path, 'terms', num_term_clusters, num_terms_in_cluster, 3425, source)
@@ -570,4 +588,4 @@ def pinpointconcept(df, c_name):
     return to_return
 
 def dolookup(num):
-    pd.DataFrame([corpus_input['foxnews']['articles'][num]['text']]).to_clipboard(index=False, header=False)
+    pd.DataFrame([corpus_input['cnn']['articles'][num]['text']]).to_clipboard(index=False, header=False)

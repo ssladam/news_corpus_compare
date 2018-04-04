@@ -124,6 +124,13 @@ def get_phrases():
 "weapon of mass destruction":"wmd",\
 "white supremacist":"whitesupremacist",\
 "police shooting":"policeshooting",\
+"cheatin' obama":"cheatinobama",\
+"travel habits":"ethics",\
+"upper big branch mine":"upperbigbranchmine",\
+"massey energy company":"masseyenergycompany",\
+"mexican official":"mexico",\
+"harassment case":"harassment",\
+"stock market":"stockmarket",\
 
 
 
