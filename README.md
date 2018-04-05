@@ -4,11 +4,11 @@ Scrape various news feeds to build and compare contents
 You can consider "scraper.py" to be the first bit of code you need to execute. In that file you have the option to define all sources you wish to extract content, the maximum number of articles to capture in any one go, and the minimum length of an article to be considered for inclusion. The code is currently configured to ONLY extract articles from RSS feeds, and the link to the main site is simply included as a reference point. Please note that you will likely need to run the this RSS scraper once every day or so for several days, since typically RSS feeds only provide the XX most recent published articles.
 
 Scraped articles are saved into a YAML file, which is then opened by the "work-horse" program, scrape_cluster.py. You will need to edit the paths in both scraper.py and scrape_cluster.py to folders on your local system. Also note, there is an expectation that you edit all of the supporting files to match your corups:
-filter_words: a library of terms you wish to exclude
-phrase_dict: generate a dictionary of phrases to be replaced with custom text to prevent the grammar chunker from breaking up words you want to stick together
-ec_dict: map all terms which have equivalent meaning into a single term
-concept_dict: map all EC terms into their more broad conceptual categories
-weight_dict: apply weighting to concepts to aid in clustering
+- filter_words: a library of terms you wish to exclude
+- phrase_dict: generate a dictionary of phrases to be replaced with custom text to prevent the grammar chunker from breaking up words you want to stick together
+- ec_dict: map all terms which have equivalent meaning into a single term
+- concept_dict: map all EC terms into their more broad conceptual categories
+- weight_dict: apply weighting to concepts to aid in clustering
 
 I have included a "dictionary generator" excel file, which should help in the quick-and-easy creation or update of the above listed dictionaries.
 
