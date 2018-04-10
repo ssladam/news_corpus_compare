@@ -9,9 +9,7 @@ LIMIT = 100 #upper limit for max # articles to read it at any one time
 MIN_TEXT = 550 #minimum number of valid characters to be considered for inclusion
 
 data = {}
-
-#script_path = "C:/temp/NU/453/news_compare/article_input/"
-script_path = "C:/Users/adams/OneDrive/Documents/Northwestern/453 - Text/Scraper/" #location where corpus YAML is saved
+script_path = "C:/Users/adams/OneDrive/Documents/Text/Scraper/" #location where corpus YAML is saved
 if script_path[-1:] != "/": script_path = script_path + "/"
 
 sources = {
