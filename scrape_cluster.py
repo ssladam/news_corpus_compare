@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
-#a lot of credit goes to these fine gents, which helped get me started:
-#    http://bdewilde.github.io/blog/2014/09/23/intro-to-automatic-keyphrase-extraction/
-#    http://brandonrose.org/clustering
+#A significant number of various "todo" for future improvement are sprinked around the code.
+#   Feel free to review those items, and adjust as you see fit. #I've tried to comment
+#   throughout to explain my logic. Feel free to disagree and roll your own!
 
 import pandas as pd
 import numpy as np
@@ -29,13 +29,9 @@ continue_exec = True #Do not change
 num_term_clusters = 7 #how many clusters do you want for terms?
 num_concept_clusters = 13 #how many clusters for concepts?
 num_terms_in_cluster = 40 #how many of the top-terms within each cluster do you want to report?
-corpus_path = "C:/Users/adams/OneDrive/Documents/Northwestern/453 - Text/Scraper/" #location where corpus YAML is saved
-output_path = "C:/Users/adams/OneDrive/Documents/Northwestern/453 - Text/output/" #location you will output all files
-script_path = "C:/Users/adams/OneDrive/Documents/Northwestern/453 - Text/" #location where you have saved the collection of python files
-
-# corpus_path = "C:/temp/NU/453/news_compare/article_input/" #location where corpus YAML is saved
-# output_path = "C:/temp/NU/453/news_compare/output/" #location you will output all files
-# script_path = "C:/temp/NU/453/news_compare/" #location where you have saved the collection of python files
+corpus_path = "C:/Users/adams/OneDrive/Documents/Text/Scraper/" #location where corpus YAML is saved
+output_path = "C:/Users/adams/OneDrive/Documents/Text/output/" #location you will output all files
+script_path = "C:/Users/adams/OneDrive/Documents/Text/" #location where you have saved the collection of python files
 #========GLOBAL VARIABLES YOU CAN CUSTOMIZE TO TWEAK BEHAVIOR============
 
 #Did you forget to put the backslash at the end of your input folders?
